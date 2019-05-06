@@ -1,0 +1,3 @@
+vhdl work "../Src_4ISE/Fetch_Unit.vhd"
+vhdl work "../Src_4ISE/BYOC_Clock_driver.vhd"
+vhdl work "../Src_4ISE/HW2_top.vhd"

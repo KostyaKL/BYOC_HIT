@@ -1,0 +1,6 @@
+vhdl work "../Src_4Sim/SIM_HW2_filenames.vhd"
+vhdl work "../Src_4Sim/Fetch_Unit.vhd"
+vhdl work "../Src_4Sim/BYOC_Host_Intf_4sim.vhd"
+vhdl work "../Src_4Sim/BYOC_Clock_driver_4sim.vhd"
+vhdl work "../Src_4Sim/HW2_top_4sim.vhd"
+vhdl work "../Src_4Sim/SIM_HW2_TB.vhd"

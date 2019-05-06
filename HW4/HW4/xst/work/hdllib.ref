@@ -1,0 +1,12 @@
+AR hw4_top behavioral C:/Users/User/Documents/VHDL/HW4/Src_4ISE/HW4_top.vhd sub00/vhpl11 1557164215
+EN clock_driver NULL C:/Users/User/Documents/VHDL/HW4/Src_4ISE/BYOC_Clock_driver.vhd sub00/vhpl02 1557164206
+EN dual_port_memory_no_ck_read NULL C:/Users/User/Documents/VHDL/HW4/Src_4ISE/dual_port_memory_HIT.vhd sub00/vhpl00 1557164204
+EN mips_alu NULL C:/Users/User/Documents/VHDL/HW4/Src_4ISE/MIPS_ALU_HIT.vhd sub00/vhpl08 1557164212
+AR fetch_unit behavioral C:/Users/User/Documents/VHDL/HW4/Src_4ISE/fetch_unit_imp.vhd sub00/vhpl05 1557164209
+EN fetch_unit NULL C:/Users/User/Documents/VHDL/HW4/Src_4ISE/fetch_unit_imp.vhd sub00/vhpl04 1557164208
+AR gpr behavioral C:/Users/User/Documents/VHDL/HW4/Src_4ISE/GPR_HIT.vhd sub00/vhpl07 1557164211
+AR mips_alu behavioral C:/Users/User/Documents/VHDL/HW4/Src_4ISE/MIPS_ALU_HIT.vhd sub00/vhpl09 1557164213
+AR dual_port_memory_no_ck_read dual_port_memory C:/Users/User/Documents/VHDL/HW4/Src_4ISE/dual_port_memory_HIT.vhd sub00/vhpl01 1557164205
+EN gpr NULL C:/Users/User/Documents/VHDL/HW4/Src_4ISE/GPR_HIT.vhd sub00/vhpl06 1557164210
+EN hw4_top NULL C:/Users/User/Documents/VHDL/HW4/Src_4ISE/HW4_top.vhd sub00/vhpl10 1557164214
+AR clock_driver clock_divider C:/Users/User/Documents/VHDL/HW4/Src_4ISE/BYOC_Clock_driver.vhd sub00/vhpl03 1557164207

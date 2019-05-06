@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.xst" -ofn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.xst" -ofn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.xst" -ofn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../Src_4ISE -nt timestamp -uc C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC.ucf -p xc3s500e-fg320-5 HW2_top.ngc HW2_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o HW2_top_map.ncd HW2_top.ngd HW2_top.pcf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.xst" -ofn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../Src_4ISE -nt timestamp -uc C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC.ucf -p xc3s500e-fg320-5 HW2_top.ngc HW2_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o HW2_top_map.ncd HW2_top.ngd HW2_top.pcf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.xst" -ofn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../Src_4ISE -nt timestamp -uc C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC.ucf -p xc3s500e-fg320-5 HW2_top.ngc HW2_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o HW2_top_map.ncd HW2_top.ngd HW2_top.pcf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.xst" -ofn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.xst" -ofn "C:/Users/User/Documents/VHDL/HW2/HW2/HW2_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../Src_4ISE -nt timestamp -uc C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC.ucf -p xc3s500e-fg320-5 HW2_top.ngc HW2_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o HW2_top_map.ncd HW2_top.ngd HW2_top.pcf 
+par -w -intstyle ise -ol high -t 1 HW2_top_map.ncd HW2_top.ncd HW2_top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml HW2_top.twx HW2_top.ncd -o HW2_top.twr HW2_top.pcf 
+bitgen -intstyle ise -f HW2_top.ut HW2_top.ncd 

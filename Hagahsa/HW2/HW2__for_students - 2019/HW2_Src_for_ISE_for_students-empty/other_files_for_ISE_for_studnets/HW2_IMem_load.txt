@@ -1,0 +1,91 @@
+x00         # RESET CMD    #changes for single step debugging are marked with @@@
+
+x2100000400020 # load program from 400000h and on. Exactly 20h=32 words 
+
+7600CDEF    # 400000  <= x"FEDC0067"
+
+11110000    # 400004  <= x"00001111";
+
+22220000    # 400008  <= x"00002222";
+
+33330000    # 40000c  <= x"00003333";
+
+44440000    # 400010  <= x"00004444";
+
+20000041    # 400014  <= x"14000002";-- bne 2 instructions forward, i.e.,  to 0x40020
+
+66660000    # 400018  <= x"00006666";
+
+77770000    # 40001c  <= x"00007777";
+
+88888888    # 400020  <= x"88888888";
+
+99990000    # 400024  <= x"00009999";
+
+AAAA0000    # 400028  <= x"0000AAAA";
+
+BBBB0000    # 40002c  <= x"0000BBBB";
+
+CCCC0000    # 400030  <= x"0000CCCC";
+
+11000180    # 400034  <= x"08100011";-- j to 0x400044 ( inst 0x100011)
+
+EEEE0000    # 400038  <= x"0000EEEE";
+
+FFFF0000    # 40003c  <= x"0000FFFF";
+
+00000002    # 400040  <= x"20000000";
+
+11110002    # 400044  <= x"20001111";
+
+22220002    # 400048  <= x"20002222";
+
+33330002    # 40004c  <= x"20003333";
+
+80000000    # 400050  <= x"00000008";-- jr instruction (should be to to 0x400004)
+
+55550002    # 400054  <= x"20005555";
+
+66660002    # 400058  <= x"30006666";
+
+77770002    # 40005c  <= x"30007777";
+
+88880002    # 400060  <= x"30008888";
+
+99990002    # 400064  <= x"30009999";
+
+AAAA0002    # 400068  <= x"3000AAAA";
+
+BBBB0002    # 40006c  <= x"3000BBBB";
+
+CCCC0002    # 400070  <= x"3000CCCC";
+
+DDDD0002    # 400074  <= x"3000DDDD";
+
+EEEE0002    # 400078  <= x"3000EEEE";
+
+FEDCBA92    # 40007c  <= x"39ABCDEF";
+
+yyyyyyyy    # add a few "end of cmd" to make sure cmd is ended properly
+
+yyyyyyyy
+
+yyyyyyyy
+
+yyyyyyyy
+
+x2010       # set ck to Host_single_ck
+
+yyyyyyyy     # add a few "end of cmd" to make sure cmd is ended properly
+
+yyyyyyyy  
+
+yyyyyyyy 
+
+yyyyyyyy 
+
+yyyyyyyy 
+
+yyyyyyyy 
+
+yyyyyyyy 

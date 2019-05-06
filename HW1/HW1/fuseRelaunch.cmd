@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/User/Documents/VHDL/HW1/HW1/p4_TB_isim_beh.exe" -prj "C:/Users/User/Documents/VHDL/HW1/HW1/p4_TB_beh.prj" "work.p4_TB" 
