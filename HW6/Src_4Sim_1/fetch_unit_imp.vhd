@@ -27,7 +27,9 @@ MIPS_IMem_rd_data : in STD_LOGIC_VECTOR (31 downto 0);
 IR_reg_pID : out STD_LOGIC_VECTOR (31 downto 0); 
 sext_imm_pID : out STD_LOGIC_VECTOR (31 downto 0); 
 PC_reg_pIF : out STD_LOGIC_VECTOR (31 downto 0); 
-Rs_equals_Rt_pID : in STD_LOGIC
+Rs_equals_Rt_pID : in STD_LOGIC;
+jr_adrs_in			: in STD_LOGIC_VECTOR  (31 downto 0); --@@@HW6
+PC_plus_4_pID_out	: out STD_LOGIC_VECTOR  (31 downto 0)--@@@HW6
 		);
 end Fetch_Unit; 
 
@@ -76,7 +78,7 @@ signal  PC_mux_out		: STD_LOGIC_VECTOR  (31 downto 0);
 
 signal  PC_plus_4_pID 	: STD_LOGIC_VECTOR  (31 downto 0);
 
--- signal jr_adrs_in		: STD_LOGIC_VECTOR  (31 downto 0); --@@@HW6
+
 
 --================= End of MIPS signals ==========================================
 --================================================================================
@@ -110,6 +112,7 @@ sext_imm_pID <= sext_imm;
 PC_reg_pIF <= PC_reg; 
 
 
+
 -- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 -- your Fetch_Unit code starts here  <<<<@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
 -- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -117,12 +120,16 @@ PC_reg_pIF <= PC_reg;
 -- ============================= IF phase processes ======================================
 -- =======================================================================================
 -- PC register
-process (RESET, CK)
+process (RESET, CK, opcode)
 begin
 	if RESET='1' then
 		PC_reg <= x"00400000";
 	elsif CK'event and CK='1' and HOLD ='0' then
-		PC_reg <= PC_mux_out;
+		if opcode = 2  or opcode = 3 then
+			PC_reg <= jump_adrs;  --@@@HW6
+		else	
+			PC_reg <= PC_mux_out;
+		end if ;
 	end if;
 end process;
 
@@ -150,13 +157,19 @@ PC_plus_4 <= PC_reg + 4;
 IR_reg <= IMem_rd_data;
 
 imm <= IR_reg(15 downto 0);
+
+
 -- imm sign extension	  (create the sext_imm signal)
 process (imm)
 begin
-	if imm(15) = '0' then
-		sext_imm <= x"0000" & imm;
-	elsif imm(15) = '1' then
-		sext_imm <= x"FFFF" & imm;
+	if opcode = 15 then -- lui
+		sext_imm <= imm & x"0000"; --@@@HW6
+	elsif opcode /= 13 then -- @@@HW6 not ori
+		if imm(15) = '0' then
+			sext_imm <= x"0000" & imm;
+		elsif imm(15) = '1' then
+			sext_imm <= x"FFFF" & imm;
+		end if;
 	end if;
 end process;
 
@@ -167,7 +180,8 @@ branch_adrs <= (sext_imm(29 downto 0) & b"00") + PC_plus_4_pID;
 jump_adrs <= PC_plus_4_pID(31 downto 28) & IR_reg(25 downto 0) & b"00";
 
 -- JR address      (create the jr_adrs signal)  
-jr_adrs <= x"00400004";
+jr_adrs <= jr_adrs_in; --@@@HW6
+PC_plus_4_pID_out <= PC_plus_4_pID; --@@@HW6
 	
 -- PC_plus_4_pID register   (create the PC_plus_4_pID signal)
 process (RESET, CK)

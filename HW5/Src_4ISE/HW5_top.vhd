@@ -693,6 +693,8 @@ begin
 		ALUOP_pEX <= b"00";
 		RegDst_pEX <= '0';
 		RegWrite_pEX <= '0';
+		MemWrite_pEX <= '0';
+		MemToReg_pEX <= '0';
 	elsif CK'event and CK='1' and HOLD ='0' then
 		ALUsrcB_pEX <= ALUsrcB;
 		Funct_pEX <= Funct;

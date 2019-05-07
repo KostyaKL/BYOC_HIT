@@ -1,0 +1,95 @@
+ISim log file
+Running: C:\Users\User\Documents\BYOC_HIT\HW6\HW6\BYOC_TB_for_students_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/User/Documents/BYOC_HIT/HW6/HW6/BYOC_TB_for_students_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps: Note: ================= Start filling IMem from file ==================================== (/byoc_tb_for_students/Testing_BYOC_top/hostintf/).
+at 0 ps: Note: ================= Filling IMem from file done! ==================================== (/byoc_tb_for_students/Testing_BYOC_top/hostintf/).
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/hostintf/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/hostintf/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/hostintf/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/GPR_file/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/GPR_file/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/GPR_file/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 1 ns: Note: ================= Start checking signals ======================== (/byoc_tb_for_students/).
+at 640 ns(6): Error: Error in value3 in CK cycle 0!!!  was xxxxxx00 instead of 00000000
+at 640 ns(6): Error: Error in value9 in CK cycle 0!!!  was xxxxxxxx instead of 00000000
+at 680 ns(6): Error: Error in value3 in CK cycle 1!!!  was xxxxxx3F instead of 00010F3F
+at 680 ns(6): Error: Error in value9 in CK cycle 1!!!  was xxxxxxxx instead of 00000000
+at 680 ns(6): Error: Error in value10 in CK cycle 1!!!  was xxxxxxxx instead of 00000000
+at 720 ns(6), Instance /byoc_tb_for_students/Testing_BYOC_top/GPR_file/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 720 ns(6): Error: Error in value3 in CK cycle 2!!!  was xxxxxx3E instead of 00020F3E
+at 720 ns(6): Error: Error in value9 in CK cycle 2!!!  was xxxxxxxx instead of 00007FFF
+at 720 ns(6): Error: Error in value10 in CK cycle 2!!!  was xxxxxxxx instead of 00000000
+at 720 ns(6): Error: Error in value12 in CK cycle 2!!!  was 01xx0000 instead of 01000000
+at 720 ns(6): Error: Error in value14 in CK cycle 2!!!  was xxxxxxxx instead of 00000000
+at 720 ns(6): Error: Error in value15 in CK cycle 2!!!  was xxxxxxxx instead of 00000000
+at 760 ns(6): Error: Error in value3 in CK cycle 3!!!  was xxxxxx00 instead of 00000000
+at 760 ns(6): Error: Error in value9 in CK cycle 3!!!  was xxxxxxxx instead of 00007FFE
+at 760 ns(6): Error: Error in value10 in CK cycle 3!!!  was xxxxxxxx instead of 00007FFF
+at 760 ns(6): Error: Error in value12 in CK cycle 3!!!  was 01xx01xx instead of 01010100
+at 760 ns(6): Error: Error in value14 in CK cycle 3!!!  was xxxxxxxx instead of 00000000
+at 760 ns(6): Error: Error in value15 in CK cycle 3!!!  was xxxxxxxx instead of 00000000
+at 800 ns(6): Error: Error in value3 in CK cycle 4!!!  was xxxxxx00 instead of 00000000
+at 800 ns(6): Error: Error in value6 in CK cycle 4!!!  was xxxxxxxx instead of 00000000
+at 800 ns(6): Error: Error in value7 in CK cycle 4!!!  was xxxxxxxx instead of 00000000
+at 800 ns(6): Error: Error in value9 in CK cycle 4!!!  was xxxxxxxx instead of 00000000
+at 800 ns(6): Error: Error in value10 in CK cycle 4!!!  was xxxxxxxx instead of 00007FFE
+at 800 ns(6): Error: Error in value12 in CK cycle 4!!!  was 01xx01xx instead of 01020101
+at 800 ns(6): Error: Error in value14 in CK cycle 4!!!  was xxxxxxxx instead of 00007FFF
+at 800 ns(6): Error: Error in value15 in CK cycle 4!!!  was xxxxxxxx instead of 00007FFF
+at 840 ns(6): Error: Error in value3 in CK cycle 5!!!  was xxxxxx00 instead of 00000000
+at 840 ns(6): Error: Error in value6 in CK cycle 5!!!  was xxxxxxxx instead of 00000000
+at 840 ns(6): Error: Error in value7 in CK cycle 5!!!  was xxxxxxxx instead of 00000000
+at 840 ns(6): Error: Error in value9 in CK cycle 5!!!  was xxxxxxxx instead of 00000000
+at 840 ns(6): Error: Error in value10 in CK cycle 5!!!  was xxxxxxxx instead of 00000000
+at 840 ns(6): Error: Error in value11 in CK cycle 5!!!  was xxxxxxxx instead of 00000000
+at 840 ns(6): Error: Error in value12 in CK cycle 5!!!  was 01xx01xx instead of 01000102
+at 840 ns(6): Error: Error in value14 in CK cycle 5!!!  was xxxxxxxx instead of 00007FFE
+at 840 ns(6): Error: Error in value15 in CK cycle 5!!!  was xxxxxxxx instead of 00007FFE
+at 880 ns(6): Error: Error in value3 in CK cycle 6!!!  was xxxxxx20 instead of 01020220
+at 880 ns(6): Error: Error in value4 in CK cycle 6!!!  was 10000001 instead of 10000000
+at 880 ns(6): Error: Error in value6 in CK cycle 6!!!  was xxxxxxxx instead of 00000000
+at 880 ns(6): Error: Error in value7 in CK cycle 6!!!  was xxxxxxxx instead of 00000000
+at 880 ns(6): Error: Error in value9 in CK cycle 6!!!  was xxxxxxxx instead of 00000000
+at 880 ns(6): Error: Error in value10 in CK cycle 6!!!  was xxxxxxxx instead of 00000000
+at 880 ns(6): Error: Error in value11 in CK cycle 6!!!  was xxxxxxxx instead of 00000000
+at 880 ns(6): Error: Error in value12 in CK cycle 6!!!  was 01xx01xx instead of 01000100
+at 880 ns(6): Error: Error in value14 in CK cycle 6!!!  was xxxxxxxx instead of 00000000
+at 880 ns(6): Error: Error in value15 in CK cycle 6!!!  was xxxxxxxx instead of 00000000
+at 920 ns(6): Error: Error in value3 in CK cycle 7!!!  was xxxxxx00 instead of 00000000
+at 920 ns(6): Error: Error in value6 in CK cycle 7!!!  was xxxxxxxx instead of 00007FFF
+at 920 ns(6): Error: Error in value7 in CK cycle 7!!!  was xxxxxxxx instead of 00007FFE
+at 920 ns(6): Error: Error in value9 in CK cycle 7!!!  was xxxxxxxx instead of 0000FFFD
+at 920 ns(6): Error: Error in value10 in CK cycle 7!!!  was xxxxxxxx instead of 00000000
+at 920 ns(6): Error: Error in value11 in CK cycle 7!!!  was xxxxxxxx instead of 00000000
+at 920 ns(6): Error: Error in value12 in CK cycle 7!!!  was 01xx01xx instead of 01000100
+at 920 ns(6): Error: Error in value14 in CK cycle 7!!!  was xxxxxxxx instead of 00000000
+at 920 ns(6): Error: Error in value15 in CK cycle 7!!!  was xxxxxxxx instead of 00000000
+at 960 ns(6): Error: Error in value3 in CK cycle 8!!!  was xxxxxx00 instead of 00000000
+at 960 ns(6): Error: Error in value6 in CK cycle 8!!!  was xxxxxxxx instead of 00000000
+at 960 ns(6): Error: Error in value7 in CK cycle 8!!!  was xxxxxxxx instead of 00000000
+at 960 ns(6): Error: Error in value9 in CK cycle 8!!!  was xxxxxxxx instead of 00000000
+at 960 ns(6): Error: Error in value10 in CK cycle 8!!!  was xxxxxxxx instead of 0000FFFD
+at 960 ns(6): Error: Error in value11 in CK cycle 8!!!  was xxxxxxxx instead of 00007FFE
+at 960 ns(6): Error: Error in value12 in CK cycle 8!!!  was 01xx01xx instead of 01020100
+at 960 ns(6): Error: Error in value14 in CK cycle 8!!!  was xxxxxxxx instead of 00000000
+at 960 ns(6): Error: Error in value15 in CK cycle 8!!!  was xxxxxxxx instead of 00000000
+at 1 us(6): Error: Error in value3 in CK cycle 9!!!  was xxxxxx00 instead of 00000000
+at 1 us(6): Error: Error in value6 in CK cycle 9!!!  was xxxxxxxx instead of 00000000
+at 1 us(6): Error: Error in value7 in CK cycle 9!!!  was xxxxxxxx instead of 00000000
+at 1 us(6): Error: Error in value9 in CK cycle 9!!!  was xxxxxxxx instead of 00000000
+at 1 us(6): Error: Error in value10 in CK cycle 9!!!  was xxxxxxxx instead of 00000000
+at 1 us(6): Error: Error in value11 in CK cycle 9!!!  was xxxxxxxx instead of 00000000
+at 1 us(6): Error: Error in value12 in CK cycle 9!!!  was 01xx01xx instead of 01000102
+at 1 us(6): Error: Error in value14 in CK cycle 9!!!  was xxxxxxxx instead of 0000FFFD
+at 1 us(6): Error: Error in value15 in CK cycle 9!!!  was xxxxxxxx instead of 0000FFFD

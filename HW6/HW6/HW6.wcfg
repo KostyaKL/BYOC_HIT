@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/User/Documents/BYOC_HIT/HW6/HW6/BYOC_TB_for_students_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="byoc_filenames" />
+            <top_module name="byoc_tb_for_students" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/ir_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ir_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/rs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/rt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/funct" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/aluop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluop[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/jal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jal</obj_property>
+      <obj_property name="ObjectShortName">jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/a_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/b_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/a_reg_wt_fwd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a_reg_wt_fwd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_reg_wt_fwd[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/b_reg_wt_fwd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b_reg_wt_fwd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_reg_wt_fwd[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/ck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hold" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hold</obj_property>
+      <obj_property name="ObjectShortName">hold</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/rs_equals_rt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_equals_rt</obj_property>
+      <obj_property name="ObjectShortName">rs_equals_rt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/regwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/gpr_rd_data1_wt_fwd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">gpr_rd_data1_wt_fwd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpr_rd_data1_wt_fwd[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/gpr_rd_data2_wt_fwd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">gpr_rd_data2_wt_fwd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpr_rd_data2_wt_fwd[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/gpr_rd_data1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">gpr_rd_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpr_rd_data1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/gpr_rd_data2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">gpr_rd_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gpr_rd_data2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
