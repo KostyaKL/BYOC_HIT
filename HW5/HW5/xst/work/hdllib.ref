@@ -1,0 +1,12 @@
+EN hw5_top NULL C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/HW5_top.vhd sub00/vhpl10 1557219168
+EN clock_driver NULL C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/BYOC_Clock_driver.vhd sub00/vhpl02 1557219160
+EN dual_port_memory_no_ck_read NULL C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/dual_port_memory_HIT.vhd sub00/vhpl00 1557219158
+EN mips_alu NULL C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/MIPS_ALU_HIT.vhd sub00/vhpl08 1557219166
+AR fetch_unit behavioral C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/fetch_unit_imp.vhd sub00/vhpl05 1557219163
+EN fetch_unit NULL C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/fetch_unit_imp.vhd sub00/vhpl04 1557219162
+AR hw5_top behavioral C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/HW5_top.vhd sub00/vhpl11 1557219169
+AR gpr behavioral C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/GPR_HIT.vhd sub00/vhpl07 1557219165
+AR mips_alu behavioral C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/MIPS_ALU_HIT.vhd sub00/vhpl09 1557219167
+AR dual_port_memory_no_ck_read dual_port_memory C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/dual_port_memory_HIT.vhd sub00/vhpl01 1557219159
+EN gpr NULL C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/GPR_HIT.vhd sub00/vhpl06 1557219164
+AR clock_driver clock_divider C:/Users/User/Documents/BYOC_HIT/HW5/Src_4ISE/BYOC_Clock_driver.vhd sub00/vhpl03 1557219161

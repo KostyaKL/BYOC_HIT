@@ -1,0 +1,29 @@
+Command line:
+   BYOC_Host_Intf_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56876
+
+Tue May 07 11:30:48 2019
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5331.46 Meg
+
+ Total Signals          : 88
+ Total Nets             : 1664
+ Total Signal Drivers   : 58
+ Total Blocks           : 7
+ Total Primitive Blocks : 7
+ Total Processes        : 38
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 35065
+Total Line Count : 82
+
+ Total Simulation Time: 0.421875 sec
+
+ Current Memory Usage: 5174.17 Meg
+
+Tue May 07 11:32:32 2019
+

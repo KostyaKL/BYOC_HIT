@@ -1,0 +1,6 @@
+vhdl work "../Src_4ISE/dual_port_memory_HIT.vhd"
+vhdl work "../Src_4ISE/MIPS_ALU_HIT.vhd"
+vhdl work "../Src_4ISE/GPR_HIT.vhd"
+vhdl work "../Src_4ISE/fetch_unit_imp.vhd"
+vhdl work "../Src_4ISE/BYOC_Clock_driver.vhd"
+vhdl work "../Src_4ISE/HW5_top.vhd"
