@@ -15,7 +15,12 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="33" />
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/byoc_tb_for_students/i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
    <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/ir_reg" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">ir_reg[31:0]</obj_property>
       <obj_property name="ObjectShortName">ir_reg[31:0]</obj_property>
@@ -24,23 +29,27 @@
    <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/opcode" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">opcode[5:0]</obj_property>
       <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
-      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/rs" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">rs[4:0]</obj_property>
       <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/rt" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">rt[4:0]</obj_property>
       <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/rd" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">rd[4:0]</obj_property>
       <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/funct" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">funct[5:0]</obj_property>
       <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/aluop" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">aluop[1:0]</obj_property>

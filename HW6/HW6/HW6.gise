@@ -26,6 +26,9 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="BYOC_TB_for_students_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="BYOC_TB_for_students_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BYOC_TB_for_students_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="HW6_top_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="HW6_top_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="HW6_top_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
@@ -34,17 +37,13 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1557307752" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1557307752">
+    <transform xil_pn:end_ts="1557650051" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1557650051">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1557307752" xil_pn:in_ck="1091498664108644944" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1557307752">
+    <transform xil_pn:end_ts="1557650051" xil_pn:in_ck="1091498664108644944" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1557650051">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../Src_4Sim_2/BYOC_Clock_driver_4sim.vhd"/>
       <outfile xil_pn:name="../Src_4Sim_2/BYOC_Host_Intf_4sim.vhd"/>
       <outfile xil_pn:name="../Src_4Sim_2/GPR_HIT.vhd"/>
@@ -55,26 +54,21 @@
       <outfile xil_pn:name="../Src_4Sim_2/dual_port_memory_HIT.vhd"/>
       <outfile xil_pn:name="../Src_4Sim_2/fetch_unit_imp.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1557307752" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6648347747627761137" xil_pn:start_ts="1557307752">
+    <transform xil_pn:end_ts="1557650051" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6648347747627761137" xil_pn:start_ts="1557650051">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1557307752" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4342950624277075951" xil_pn:start_ts="1557307752">
+    <transform xil_pn:end_ts="1557650051" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4342950624277075951" xil_pn:start_ts="1557650051">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1557307752" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6847534622706527832" xil_pn:start_ts="1557307752">
+    <transform xil_pn:end_ts="1557650051" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6847534622706527832" xil_pn:start_ts="1557650051">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1557307752" xil_pn:in_ck="1091498664108644944" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1557307752">
+    <transform xil_pn:end_ts="1557650051" xil_pn:in_ck="1091498664108644944" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1557650051">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="../Src_4Sim_2/BYOC_Clock_driver_4sim.vhd"/>
       <outfile xil_pn:name="../Src_4Sim_2/BYOC_Host_Intf_4sim.vhd"/>
       <outfile xil_pn:name="../Src_4Sim_2/GPR_HIT.vhd"/>
@@ -85,14 +79,9 @@
       <outfile xil_pn:name="../Src_4Sim_2/dual_port_memory_HIT.vhd"/>
       <outfile xil_pn:name="../Src_4Sim_2/fetch_unit_imp.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1557307757" xil_pn:in_ck="1091498664108644944" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2058405797319777976" xil_pn:start_ts="1557307752">
+    <transform xil_pn:end_ts="1557650056" xil_pn:in_ck="1091498664108644944" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2058405797319777976" xil_pn:start_ts="1557650051">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="BYOC_TB_for_students_beh.prj"/>
       <outfile xil_pn:name="BYOC_TB_for_students_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -100,12 +89,9 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1557307757" xil_pn:in_ck="3591516898652031984" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1070957045861215851" xil_pn:start_ts="1557307757">
+    <transform xil_pn:end_ts="1557650056" xil_pn:in_ck="3591516898652031984" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1070957045861215851" xil_pn:start_ts="1557650056">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="BYOC_TB_for_students_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>

@@ -34,5 +34,5 @@ Compiling architecture testing of entity byoc_tb_for_students
 Time Resolution for simulation is 1ps.
 Compiled 22 VHDL Units
 Built simulation executable C:/Users/User/Documents/BYOC_HIT/HW6/HW6/BYOC_TB_for_students_isim_beh.exe
-Fuse Memory Usage: 38472 KB
-Fuse CPU Usage: 827 ms
+Fuse Memory Usage: 38408 KB
+Fuse CPU Usage: 842 ms
