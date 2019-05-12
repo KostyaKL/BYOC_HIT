@@ -21,7 +21,7 @@ rd_data1 	: 	out 	STD_LOGIC_VECTOR (31 downto 0);-- Rs contents
 rd_data2 	: 	out 	STD_LOGIC_VECTOR (31 downto 0);-- Rt contents
 wr_data 	: 	in	 	STD_LOGIC_VECTOR (31 downto 0);-- contents to be written into Rd (or Rt)
 Reg_Write 	: 	in  	STD_LOGIC;-- "0" means no register is written into
-GPR_hold	: 	in  	STD_LOGIC-- "1" means no register is written into
+GPR_hold	: 	in  	STD_LOGIC -- "1" means no register is written into
 
 	);
 end GPR;
@@ -38,6 +38,7 @@ signal  GPR_data_out2 	: 	STD_LOGIC_VECTOR (31 downto 0);-- Rt contents
 signal  GPR_wr_data 	: 	STD_LOGIC_VECTOR (31 downto 0);-- Rt contents
 
 signal  GPR_we		 	: 	STD_LOGIC;-- the we signal to the memory. made of (Reg_Write and (not GPR_hold))
+
 
 
 -- components used
@@ -63,7 +64,6 @@ END COMPONENT;
 begin 
 
 GPR_wr_data <= wr_data; 
-
 
 -- produce rd_data1: 
 -- Here we ensure that reg 0 is always zero

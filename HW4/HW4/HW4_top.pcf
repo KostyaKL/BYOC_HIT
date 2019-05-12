@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Mon May 06 20:37:12 2019
+// Written by: Map P.20131013 on Sun May 12 09:35:52 2019
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -173,31 +173,30 @@ TIMEGRP clock_divider/half_ck_signal = BEL "B_reg_0" BEL "B_reg_1" BEL
         "B_reg_25" BEL "B_reg_26" BEL "B_reg_27" BEL "B_reg_28" BEL "B_reg_29"
         BEL "B_reg_30" BEL "B_reg_31" BEL "RegDst_pEX" BEL "Rd_pWB_0" BEL
         "Rd_pWB_1" BEL "Rd_pWB_2" BEL "Rd_pWB_3" BEL "Rd_pWB_4" BEL
+        "ALUsrcB_pEX" BEL "ALUOP_pEX_0" BEL "RegWrite_pEX" BEL "A_reg_0" BEL
+        "A_reg_1" BEL "A_reg_2" BEL "A_reg_3" BEL "A_reg_4" BEL "A_reg_5" BEL
+        "A_reg_6" BEL "A_reg_7" BEL "A_reg_8" BEL "A_reg_9" BEL "A_reg_10" BEL
+        "A_reg_11" BEL "A_reg_12" BEL "A_reg_13" BEL "A_reg_14" BEL "A_reg_15"
+        BEL "A_reg_16" BEL "A_reg_17" BEL "A_reg_18" BEL "A_reg_19" BEL
+        "A_reg_20" BEL "A_reg_21" BEL "A_reg_22" BEL "A_reg_23" BEL "A_reg_24"
+        BEL "A_reg_25" BEL "A_reg_26" BEL "A_reg_27" BEL "A_reg_28" BEL
+        "A_reg_29" BEL "A_reg_30" BEL "A_reg_31" BEL "RegWrite_pWB" BEL
         "Funct_pEX_0" BEL "Funct_pEX_1" BEL "Funct_pEX_2" BEL "Funct_pEX_3"
-        BEL "Funct_pEX_4" BEL "Funct_pEX_5" BEL "ALUsrcB_pEX" BEL
-        "sext_imm_reg_6" BEL "sext_imm_reg_7" BEL "sext_imm_reg_8" BEL
-        "sext_imm_reg_9" BEL "sext_imm_reg_10" BEL "sext_imm_reg_11" BEL
-        "sext_imm_reg_12" BEL "sext_imm_reg_13" BEL "sext_imm_reg_14" BEL
-        "sext_imm_reg_15" BEL "ALUOP_pEX_0" BEL "RegWrite_pEX" BEL "A_reg_0"
-        BEL "A_reg_1" BEL "A_reg_2" BEL "A_reg_3" BEL "A_reg_4" BEL "A_reg_5"
-        BEL "A_reg_6" BEL "A_reg_7" BEL "A_reg_8" BEL "A_reg_9" BEL "A_reg_10"
-        BEL "A_reg_11" BEL "A_reg_12" BEL "A_reg_13" BEL "A_reg_14" BEL
-        "A_reg_15" BEL "A_reg_16" BEL "A_reg_17" BEL "A_reg_18" BEL "A_reg_19"
-        BEL "A_reg_20" BEL "A_reg_21" BEL "A_reg_22" BEL "A_reg_23" BEL
-        "A_reg_24" BEL "A_reg_25" BEL "A_reg_26" BEL "A_reg_27" BEL "A_reg_28"
-        BEL "A_reg_29" BEL "A_reg_30" BEL "A_reg_31" BEL "RegWrite_pWB" BEL
-        "ALUout_reg_0" BEL "ALUout_reg_1" BEL "ALUout_reg_2" BEL
-        "ALUout_reg_3" BEL "ALUout_reg_4" BEL "ALUout_reg_5" BEL
-        "ALUout_reg_6" BEL "ALUout_reg_7" BEL "ALUout_reg_8" BEL
-        "ALUout_reg_9" BEL "ALUout_reg_10" BEL "ALUout_reg_11" BEL
-        "ALUout_reg_12" BEL "ALUout_reg_13" BEL "ALUout_reg_14" BEL
-        "ALUout_reg_15" BEL "ALUout_reg_16" BEL "ALUout_reg_17" BEL
-        "ALUout_reg_18" BEL "ALUout_reg_19" BEL "ALUout_reg_20" BEL
-        "ALUout_reg_21" BEL "ALUout_reg_22" BEL "ALUout_reg_23" BEL
-        "ALUout_reg_24" BEL "ALUout_reg_25" BEL "ALUout_reg_26" BEL
-        "ALUout_reg_27" BEL "ALUout_reg_28" BEL "ALUout_reg_29" BEL
-        "ALUout_reg_30" BEL "ALUout_reg_31" BEL "Rt_pEX_0" BEL "Rt_pEX_1" BEL
-        "Rt_pEX_2" BEL "Rt_pEX_3" BEL "Rt_pEX_4" BEL
+        BEL "Funct_pEX_4" BEL "Funct_pEX_5" BEL "Rd_pEX_0" BEL "Rd_pEX_1" BEL
+        "Rd_pEX_2" BEL "Rd_pEX_3" BEL "Rd_pEX_4" BEL "Rt_pEX_0" BEL "Rt_pEX_1"
+        BEL "Rt_pEX_2" BEL "Rt_pEX_3" BEL "Rt_pEX_4" BEL "sext_imm_reg_6" BEL
+        "sext_imm_reg_7" BEL "sext_imm_reg_8" BEL "sext_imm_reg_9" BEL
+        "sext_imm_reg_10" BEL "ALUout_reg_0" BEL "ALUout_reg_1" BEL
+        "ALUout_reg_2" BEL "ALUout_reg_3" BEL "ALUout_reg_4" BEL
+        "ALUout_reg_5" BEL "ALUout_reg_6" BEL "ALUout_reg_7" BEL
+        "ALUout_reg_8" BEL "ALUout_reg_9" BEL "ALUout_reg_10" BEL
+        "ALUout_reg_11" BEL "ALUout_reg_12" BEL "ALUout_reg_13" BEL
+        "ALUout_reg_14" BEL "ALUout_reg_15" BEL "ALUout_reg_16" BEL
+        "ALUout_reg_17" BEL "ALUout_reg_18" BEL "ALUout_reg_19" BEL
+        "ALUout_reg_20" BEL "ALUout_reg_21" BEL "ALUout_reg_22" BEL
+        "ALUout_reg_23" BEL "ALUout_reg_24" BEL "ALUout_reg_25" BEL
+        "ALUout_reg_26" BEL "ALUout_reg_27" BEL "ALUout_reg_28" BEL
+        "ALUout_reg_29" BEL "ALUout_reg_30" BEL "ALUout_reg_31" BEL
         "clock_divider/half_ck_signal" BEL "fetch_unit_imp/PC_reg_0" BEL
         "fetch_unit_imp/PC_reg_1" BEL "fetch_unit_imp/PC_reg_2" BEL
         "fetch_unit_imp/PC_reg_3" BEL "fetch_unit_imp/PC_reg_4" BEL

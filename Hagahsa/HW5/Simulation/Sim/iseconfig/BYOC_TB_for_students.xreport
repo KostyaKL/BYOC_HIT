@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-05-07T10:13:50</DateModified>
+  <DateModified>2019-05-12T09:55:12</DateModified>
   <ModuleName>BYOC_TB_for_students</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/User/Documents/BYOC_HIT/HW5/HW5/iseconfig/BYOC_TB_for_students.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/User/Documents/BYOC_HIT/HW5/HW5\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/User/Documents/BYOC_HIT/Hagahsa/HW5/Simulation/Sim/iseconfig/BYOC_TB_for_students.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/User/Documents/BYOC_HIT/Hagahsa/HW5/Simulation/Sim\</ImplementationReportsDirectory>
   <DateInitialized>2019-05-06T20:46:44</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

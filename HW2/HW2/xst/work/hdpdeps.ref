@@ -1,26 +1,51 @@
-V3 14
-FL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC_Clock_driver.vhd 2018/11/03.13:54:22 P.20131013
-EN work/Clock_Driver 1557147373 \
-      FL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC_Clock_driver.vhd \
+V3 26
+FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Clock_driver_4sim.vhd 2018/11/03.13:06:44 P.20131013
+EN work/Clock_Driver 1557648729 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Clock_driver_4sim.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
-      PB ieee/std_logic_arith 1381692177 PB ieee/NUMERIC_STD 1381692181 LB unisim \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/Clock_Driver/clock_divider 1557147374 \
-      FL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC_Clock_driver.vhd \
-      EN work/Clock_Driver 1557147373 CP BUFG
+      PB ieee/std_logic_arith 1381692177 PB ieee/NUMERIC_STD 1381692181
+AR work/Clock_Driver/clock_divider 1557648730 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Clock_driver_4sim.vhd \
+      EN work/Clock_Driver 1557648729
+FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Host_Intf_4sim.vhd 2018/11/03.13:20:10 P.20131013
+EN work/BYOC_Host_Intf 1557648731 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Host_Intf_4sim.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB std/TEXTIO 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 PH work/BYOC_filenames 1557648728
+AR work/BYOC_Host_Intf/Behavioral 1557648732 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Host_Intf_4sim.vhd \
+      EN work/BYOC_Host_Intf 1557648731
+FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/Fetch_Unit.vhd 2019/05/06.15:27:27 P.20131013
+EN work/Fetch_Unit 1557648733 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/Fetch_Unit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Fetch_Unit/Behavioral 1557648734 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/Fetch_Unit.vhd \
+      EN work/Fetch_Unit 1557648733
+FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/HW2_top_4sim.vhd 2018/11/03.13:31:02 P.20131013
+EN work/HW2_top 1557648735 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/HW2_top_4sim.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/HW2_top/Behavioral 1557648736 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/HW2_top_4sim.vhd \
+      EN work/HW2_top 1557648735 CP Clock_Driver CP BYOC_Host_intf CP Fetch_Unit
+FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/SIM_HW2_filenames.vhd 2019/05/06.15:33:33 P.20131013
+PH work/BYOC_filenames 1557648728 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/SIM_HW2_filenames.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB std/TEXTIO 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+EN work/BYOC_TB_for_students 0 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/SIM_HW2_TB.vhd \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_1164 1381692176 PB std/TEXTIO 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 PH work/BYOC_filenames 1557648728
+AR work/BYOC_TB_for_students/Testing 0 \
+      FL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/SIM_HW2_TB.vhd \
+      EN work/BYOC_TB_for_students 0 CP HW2_top
+FL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC_Clock_driver.vhd 2018/11/03.13:54:22 P.20131013
 FL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/Fetch_Unit.vhd 2019/05/06.15:27:27 P.20131013
-EN work/Fetch_Unit 1557147375 \
-      FL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/Fetch_Unit.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/Fetch_Unit/Behavioral 1557147376 \
-      FL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/Fetch_Unit.vhd \
-      EN work/Fetch_Unit 1557147375
 FL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/HW2_top.vhd 2019/05/06.15:56:10 P.20131013
-EN work/HW2_top 1557147377 \
-      FL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/HW2_top.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/HW2_top/Behavioral 1557147378 \
-      FL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/HW2_top.vhd EN work/HW2_top 1557147377 \
-      CP Clock_Driver CP BYOC_Host_intf CP Fetch_Unit

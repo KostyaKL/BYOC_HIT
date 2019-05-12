@@ -121,7 +121,7 @@
     </transform>
     <transform xil_pn:end_ts="1557218043" xil_pn:in_ck="-7563546274353552524" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2058405797319777976" xil_pn:start_ts="1557218039">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -171,6 +171,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="HW5_top.lso"/>
@@ -193,6 +194,7 @@
     <transform xil_pn:end_ts="1557219181" xil_pn:in_ck="5231464625647969169" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7618311730065370561" xil_pn:start_ts="1557219175">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="HW5_top.bld"/>
       <outfile xil_pn:name="HW5_top.ngd"/>
       <outfile xil_pn:name="HW5_top_ngdbuild.xrpt"/>
@@ -203,6 +205,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="HW5_top.pcf"/>
@@ -218,6 +221,7 @@
     <transform xil_pn:end_ts="1557219216" xil_pn:in_ck="7596070477077189269" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1557219188">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="HW5_top.ncd"/>
       <outfile xil_pn:name="HW5_top.pad"/>
       <outfile xil_pn:name="HW5_top.par"/>
@@ -233,6 +237,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="HW5_top.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="hw5_top.bgn"/>
@@ -245,6 +250,7 @@
     <transform xil_pn:end_ts="1557219216" xil_pn:in_ck="5594766389366842616" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1557219211">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="HW5_top.twr"/>
       <outfile xil_pn:name="HW5_top.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

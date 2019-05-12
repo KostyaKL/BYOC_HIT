@@ -482,7 +482,7 @@ rd_data1	=>	 GPR_rd_data1,
 rd_data2	=>	 GPR_rd_data2,
 wr_data 	=>   ALUout_reg, 
 Reg_Write 	=>   RegWrite_pWB,
-GPR_hold 	=>   HOLD -- ,
+GPR_hold 	=>   HOLD
  );
 
 	
@@ -549,6 +549,9 @@ Rt <= IR_reg(20 downto 16);
 Rs <= IR_reg(25 downto 21);
 Funct <= IR_reg(5 downto 0);
 Opcode <= IR_reg(31 downto 26);
+
+
+
 
 
 -- beq/bne comparator

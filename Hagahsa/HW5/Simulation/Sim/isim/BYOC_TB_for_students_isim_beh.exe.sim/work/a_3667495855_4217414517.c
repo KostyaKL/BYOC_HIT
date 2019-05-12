@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/User/Documents/BYOC_HIT/HW5/Src_4Sim/BYOC_Clock_driver_4sim.vhd";
+static const char *ng0 = "C:/Users/User/Documents/BYOC_HIT/Hagahsa/HW5/Simulation/Src_4Sim/BYOC_Clock_driver_4sim.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1690584930_503743352(char *, unsigned char );

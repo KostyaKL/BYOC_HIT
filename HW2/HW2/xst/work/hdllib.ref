@@ -1,6 +1,10 @@
-EN clock_driver NULL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC_Clock_driver.vhd sub00/vhpl01 1557147373
-AR hw2_top behavioral C:/Users/User/Documents/VHDL/HW2/Src_4ISE/HW2_top.vhd sub00/vhpl05 1557147378
-EN hw2_top NULL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/HW2_top.vhd sub00/vhpl00 1557147377
-AR fetch_unit behavioral C:/Users/User/Documents/VHDL/HW2/Src_4ISE/Fetch_Unit.vhd sub00/vhpl04 1557147376
-EN fetch_unit NULL C:/Users/User/Documents/VHDL/HW2/Src_4ISE/Fetch_Unit.vhd sub00/vhpl03 1557147375
-AR clock_driver clock_divider C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC_Clock_driver.vhd sub00/vhpl02 1557147374
+PH byoc_filenames NULL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/SIM_HW2_filenames.vhd sub00/vhpl06 1557648728
+EN clock_driver NULL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Clock_driver_4sim.vhd sub00/vhpl01 1557648729
+AR hw2_top behavioral C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/HW2_top_4sim.vhd sub00/vhpl05 1557648736
+EN byoc_tb_for_students NULL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/SIM_HW2_TB.vhd sub00/vhpl09 1557648737
+EN hw2_top NULL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/HW2_top_4sim.vhd sub00/vhpl00 1557648735
+EN byoc_host_intf NULL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Host_Intf_4sim.vhd sub00/vhpl07 1557648731
+AR fetch_unit behavioral C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/Fetch_Unit.vhd sub00/vhpl04 1557648734
+EN fetch_unit NULL C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/Fetch_Unit.vhd sub00/vhpl03 1557648733
+AR byoc_host_intf behavioral C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Host_Intf_4sim.vhd sub00/vhpl08 1557648732
+AR clock_driver clock_divider C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Clock_driver_4sim.vhd sub00/vhpl02 1557648730

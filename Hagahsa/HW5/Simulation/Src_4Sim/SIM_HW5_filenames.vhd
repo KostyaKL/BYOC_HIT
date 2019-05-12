@@ -16,8 +16,8 @@ use  ieee.std_logic_unsigned.all;
 use  std.textio.all;
 use  IEEE.NUMERIC_STD.all;
 
-constant	program_in_file_name 	:  string := "C:\Users\User\Documents\BYOC_HIT\HW5\Src_4Sim\SIM_HW5_program.dat";
-constant	data_in_file_name 		:  string := "C:\Users\User\Documents\BYOC_HIT\HW5\Src_4Sim\SIM_HW5_TB_data.dat";
+constant	program_in_file_name 	:  string := "C:\Users\User\Documents\BYOC_HIT\Hagahsa\HW5\Simulation\Src_4Sim\SIM_HW5_program.dat";
+constant	data_in_file_name 		:  string := "C:\Users\User\Documents\BYOC_HIT\Hagahsa\HW5\Simulation\Src_4Sim\SIM_HW5_TB_data.dat";
 
 signal 		no_hold					:  STD_LOGIC := '0'; -- MUST be '0' for correct TB messages !!!
 

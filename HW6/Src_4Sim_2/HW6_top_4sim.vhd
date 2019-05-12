@@ -769,18 +769,18 @@ end process;
 
 -- with forwarding													-- @@@HW6 adding data forwarding
 -- src_A mux (forwarding)											-- @@@HW6 adding data forwarding in EX phase			
-process (RegWrite_pMEM, Rd_pMEM, Rs_pEX, RegWrite_pWB, Rd_pWB, Opcode, GPR_wr_data)
+process (RegWrite_pMEM, Rd_pMEM, Rs_pEX, RegWrite_pWB, Rd_pWB, JAL_pMEM, GPR_wr_data, )
 begin
 	if Opcode /= 35 then
-		if RegWrite_pMEM = '1' and RegWrite_pWB = '1' then
-			A_reg_wt_fwd <= A_reg;
-		elsif RegWrite_pMEM = '1' and Rd_pMEM = Rs_pEX and Opcode /= 3 then
+		if RegWrite_pMEM = '1' and Rd_pMEM = Rs_pEX and JAL_pMEM = '0' then
 			A_reg_wt_fwd <= ALUout_reg;
 		elsif RegWrite_pWB = '1' and Rd_pWB = Rs_pEX then
 			A_reg_wt_fwd <= GPR_wr_data;
-		elsif Opcode /= 3 then
+		elsif JAL_pMEM = '0' then
 			A_reg_wt_fwd <= A_reg;
 		end if;
+	else
+		A_reg_wt_fwd <= A_reg;
 	end if;
 end process;
 

@@ -5,25 +5,31 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/User/Documents/VHDL/HW2/Src_4ISE/HW2_top.vhd</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">MIPS_DMem_rd_data</arg>&apos; of component &apos;<arg fmt="%s" index="4">BYOC_Host_intf</arg>&apos;.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HW2_top</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/User/Documents/VHDL/HW2/Src_4ISE/HW2_top.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/HW2_top_4sim.vhd</arg>&quot;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/User/Documents/VHDL/HW2/Src_4ISE/HW2_top.vhd</arg>&quot; line <arg fmt="%d" index="2">265</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">BYOC_Host_intf</arg>&gt;.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HW2_top/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/User/Documents/VHDL/HW2/Src_4ISE/HW2_top.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/HW2_top_4sim.vhd</arg>&quot;.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sext_imm&lt;31:30&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Clock_Driver</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC_Clock_driver.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Clock_driver_4sim.vhd</arg>&quot;.
 </msg>
 
-<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rdbk_vec2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Clock_Driver/clock_divider</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/User/Documents/VHDL/HW2/Src_4ISE/BYOC_Clock_driver.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/BYOC_Clock_driver_4sim.vhd</arg>&quot;.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">leds_out_from_host_intf&lt;7&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Fetch_Unit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/User/Documents/VHDL/HW2/Src_4ISE/Fetch_Unit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/Fetch_Unit.vhd</arg>&quot;.
 </msg>
 
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Flash_intf_in_host_intf/end_of_copy</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hostintf</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;Flash_intf_in_host_intf/end_of_copy_1&gt; </arg>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Fetch_Unit/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/User/Documents/VHDL/HW2/Src_4ISE/Fetch_Unit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/Fetch_Unit.vhd</arg>&quot;.
 </msg>
 
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Flash_intf_in_host_intf/end_of_copy</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hostintf</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;Flash_intf_in_host_intf/end_of_copy_1&gt; </arg>
+<msg type="error" file="HDLParsers" num="1015" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/SIM_HW2_TB.vhd</arg>&quot; Line <arg fmt="%d" index="2">293</arg>. Wait for statement unsupported.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1015" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/SIM_HW2_TB.vhd</arg>&quot; Line <arg fmt="%d" index="2">295</arg>. Wait for statement unsupported.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1015" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/User/Documents/BYOC_HIT/HW2/Src_4Sim/SIM_HW2_TB.vhd</arg>&quot; Line <arg fmt="%d" index="2">358</arg>. Wait for statement unsupported.
 </msg>
 
 </messages>

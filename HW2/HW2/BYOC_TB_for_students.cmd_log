@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/User/Documents/BYOC_HIT/HW2/HW2/BYOC_TB_for_students.xst" -ofn "C:/Users/User/Documents/BYOC_HIT/HW2/HW2/BYOC_TB_for_students.syr" 

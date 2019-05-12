@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Reading design: HW4_top.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 24
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -107,37 +107,33 @@ Cores Search Directories           : {"../Src_4ISE"  }
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/dual_port_memory_HIT.vhd" in Library work.
-Entity <dual_port_memory_no_CK_read> compiled.
-Entity <dual_port_memory_no_CK_read> (Architecture <dual_port_memory>) compiled.
-Compiling vhdl file "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/BYOC_Clock_driver.vhd" in Library work.
-Entity <Clock_Driver> compiled.
-Entity <Clock_Driver> (Architecture <clock_divider>) compiled.
-Compiling vhdl file "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/fetch_unit_imp.vhd" in Library work.
-Entity <Fetch_Unit> compiled.
-Entity <Fetch_Unit> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/GPR_HIT.vhd" in Library work.
-Entity <GPR> compiled.
-Entity <GPR> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/MIPS_ALU_HIT.vhd" in Library work.
-Entity <MIPS_ALU> compiled.
-Entity <MIPS_ALU> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/HW4_top.vhd" in Library work.
-Entity <HW4_top> compiled.
-Entity <HW4_top> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/dual_port_memory_HIT.vhd" in Library work.
+Architecture dual_port_memory of Entity dual_port_memory_no_ck_read is up to date.
+Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/BYOC_Clock_driver.vhd" in Library work.
+Architecture clock_divider of Entity clock_driver is up to date.
+Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/fetch_unit_imp.vhd" in Library work.
+Architecture behavioral of Entity fetch_unit is up to date.
+Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/GPR_HIT.vhd" in Library work.
+Entity <gpr> compiled.
+Entity <gpr> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/MIPS_ALU_HIT.vhd" in Library work.
+Architecture behavioral of Entity mips_alu is up to date.
+Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/HW4_top.vhd" in Library work.
+Entity <hw4_top> compiled.
+Entity <hw4_top> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <HW4_top> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <HW4_top> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <Clock_Driver> in library <work> (architecture <clock_divider>).
 
-Analyzing hierarchy for entity <Fetch_Unit> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <Fetch_Unit> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <GPR> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <GPR> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <MIPS_ALU> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <MIPS_ALU> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <dual_port_memory_no_CK_read> in library <work> (architecture <dual_port_memory>) with generics.
 	depth = 32
@@ -147,18 +143,18 @@ Analyzing hierarchy for entity <dual_port_memory_no_CK_read> in library <work> (
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <HW4_top> in library <work> (Architecture <Behavioral>).
-WARNING:Xst:753 - "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/HW4_top.vhd" line 377: Unconnected output port 'MIPS_DMem_rd_data' of component 'BYOC_Host_intf'.
-WARNING:Xst:2211 - "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/HW4_top.vhd" line 377: Instantiating black box module <BYOC_Host_intf>.
+Analyzing Entity <HW4_top> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/HW4_top.vhd" line 378: Unconnected output port 'MIPS_DMem_rd_data' of component 'BYOC_Host_intf'.
+WARNING:Xst:2211 - "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/HW4_top.vhd" line 378: Instantiating black box module <BYOC_Host_intf>.
 Entity <HW4_top> analyzed. Unit <HW4_top> generated.
 
 Analyzing Entity <Clock_Driver> in library <work> (Architecture <clock_divider>).
 Entity <Clock_Driver> analyzed. Unit <Clock_Driver> generated.
 
-Analyzing Entity <Fetch_Unit> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <Fetch_Unit> in library <work> (Architecture <behavioral>).
 Entity <Fetch_Unit> analyzed. Unit <Fetch_Unit> generated.
 
-Analyzing Entity <GPR> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <GPR> in library <work> (Architecture <behavioral>).
 Entity <GPR> analyzed. Unit <GPR> generated.
 
 Analyzing generic Entity <dual_port_memory_no_CK_read> in library <work> (Architecture <dual_port_memory>).
@@ -166,7 +162,7 @@ Analyzing generic Entity <dual_port_memory_no_CK_read> in library <work> (Archit
 	width = 32
 Entity <dual_port_memory_no_CK_read> analyzed. Unit <dual_port_memory_no_CK_read> generated.
 
-Analyzing Entity <MIPS_ALU> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <MIPS_ALU> in library <work> (Architecture <behavioral>).
 Entity <MIPS_ALU> analyzed. Unit <MIPS_ALU> generated.
 
 
@@ -177,7 +173,7 @@ Entity <MIPS_ALU> analyzed. Unit <MIPS_ALU> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <Fetch_Unit>.
-    Related source file is "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/fetch_unit_imp.vhd".
+    Related source file is "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/fetch_unit_imp.vhd".
 WARNING:Xst:1780 - Signal <rdbk_vec2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <rdbk_vec1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Using one-hot encoding for signal <PC_Source>.
@@ -192,7 +188,7 @@ Unit <Fetch_Unit> synthesized.
 
 
 Synthesizing Unit <MIPS_ALU>.
-    Related source file is "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/MIPS_ALU_HIT.vhd".
+    Related source file is "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/MIPS_ALU_HIT.vhd".
 WARNING:Xst:646 - Signal <sub_rslt<31:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <LUI> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <JAL> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
@@ -206,7 +202,7 @@ Unit <MIPS_ALU> synthesized.
 
 
 Synthesizing Unit <dual_port_memory_no_CK_read>.
-    Related source file is "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/dual_port_memory_HIT.vhd".
+    Related source file is "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/dual_port_memory_HIT.vhd".
     Found 32x32-bit dual-port RAM <Mram_Memory_array> for signal <Memory_array>.
     Found 32x32-bit dual-port RAM <Mram_Memory_array_ren> for signal <Memory_array>.
     Summary:
@@ -215,7 +211,7 @@ Unit <dual_port_memory_no_CK_read> synthesized.
 
 
 Synthesizing Unit <Clock_Driver>.
-    Related source file is "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/BYOC_Clock_driver.vhd".
+    Related source file is "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/BYOC_Clock_driver.vhd".
     Found 1-bit register for signal <half_ck_signal>.
     Summary:
 	inferred   1 D-type flip-flop(s).
@@ -223,13 +219,13 @@ Unit <Clock_Driver> synthesized.
 
 
 Synthesizing Unit <GPR>.
-    Related source file is "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/GPR_HIT.vhd".
+    Related source file is "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/GPR_HIT.vhd".
 WARNING:Xst:1780 - Signal <Equal> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 Unit <GPR> synthesized.
 
 
 Synthesizing Unit <HW4_top>.
-    Related source file is "C:/Users/User/Documents/VHDL/HW4/Src_4ISE/HW4_top.vhd".
+    Related source file is "C:/Users/User/Documents/BYOC_HIT/HW4/Src_4ISE/HW4_top.vhd".
 WARNING:Xst:646 - Signal <leds_out_from_host_intf<7>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 16-bit tristate buffer for signal <Flash_data>.
     Found 32-bit register for signal <A_reg>.
@@ -243,7 +239,7 @@ WARNING:Xst:646 - Signal <leds_out_from_host_intf<7>> is assigned but never used
     Found 1-bit register for signal <RegDst_pEX>.
     Found 1-bit register for signal <RegWrite_pEX>.
     Found 1-bit register for signal <RegWrite_pWB>.
-    Found 32-bit comparator equal for signal <Rs_equals_Rt$cmp_eq0000> created at line 557.
+    Found 32-bit comparator equal for signal <Rs_equals_Rt$cmp_eq0000> created at line 562.
     Found 5-bit register for signal <Rt_pEX>.
     Found 32-bit register for signal <sext_imm_reg>.
     Summary:
@@ -362,11 +358,11 @@ INFO:Xst:2261 - The FF/Latch <Funct_pEX_2> in Unit <HW4_top> is equivalent to th
 INFO:Xst:2261 - The FF/Latch <Funct_pEX_3> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <sext_imm_reg_3> 
 INFO:Xst:2261 - The FF/Latch <Funct_pEX_4> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <sext_imm_reg_4> 
 INFO:Xst:2261 - The FF/Latch <Funct_pEX_5> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <sext_imm_reg_5> 
-INFO:Xst:2261 - The FF/Latch <sext_imm_reg_11> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <Rd_pEX_0> 
-INFO:Xst:2261 - The FF/Latch <sext_imm_reg_12> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <Rd_pEX_1> 
-INFO:Xst:2261 - The FF/Latch <sext_imm_reg_13> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <Rd_pEX_2> 
-INFO:Xst:2261 - The FF/Latch <sext_imm_reg_14> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <Rd_pEX_3> 
-INFO:Xst:2261 - The FF/Latch <sext_imm_reg_15> in Unit <HW4_top> is equivalent to the following 17 FFs/Latches, which will be removed : <sext_imm_reg_16> <sext_imm_reg_17> <sext_imm_reg_18> <sext_imm_reg_19> <sext_imm_reg_20> <sext_imm_reg_21> <sext_imm_reg_22> <sext_imm_reg_23> <sext_imm_reg_24> <sext_imm_reg_25> <sext_imm_reg_26> <sext_imm_reg_27> <sext_imm_reg_28> <sext_imm_reg_29> <sext_imm_reg_30> <sext_imm_reg_31> <Rd_pEX_4> 
+INFO:Xst:2261 - The FF/Latch <Rd_pEX_0> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <sext_imm_reg_11> 
+INFO:Xst:2261 - The FF/Latch <Rd_pEX_1> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <sext_imm_reg_12> 
+INFO:Xst:2261 - The FF/Latch <Rd_pEX_2> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <sext_imm_reg_13> 
+INFO:Xst:2261 - The FF/Latch <Rd_pEX_3> in Unit <HW4_top> is equivalent to the following FF/Latch, which will be removed : <sext_imm_reg_14> 
+INFO:Xst:2261 - The FF/Latch <Rd_pEX_4> in Unit <HW4_top> is equivalent to the following 17 FFs/Latches, which will be removed : <sext_imm_reg_15> <sext_imm_reg_16> <sext_imm_reg_17> <sext_imm_reg_18> <sext_imm_reg_19> <sext_imm_reg_20> <sext_imm_reg_21> <sext_imm_reg_22> <sext_imm_reg_23> <sext_imm_reg_24> <sext_imm_reg_25> <sext_imm_reg_26> <sext_imm_reg_27> <sext_imm_reg_28> <sext_imm_reg_29> <sext_imm_reg_30> <sext_imm_reg_31> 
 Found area constraint ratio of 100 (+ 5) on block HW4_top, actual ratio is 26.
 INFO:Xst:2260 - The FF/Latch <Flash_intf_in_host_intf/end_of_copy> in Unit <hostintf> is equivalent to the following FF/Latch : <Flash_intf_in_host_intf/end_of_copy_1> 
 INFO:Xst:2260 - The FF/Latch <Flash_intf_in_host_intf/end_of_copy> in Unit <hostintf> is equivalent to the following FF/Latch : <Flash_intf_in_host_intf/end_of_copy_1> 
@@ -407,21 +403,21 @@ Design Statistics
 # IOs                              : 91
 
 Cell Usage :
-# BELS                             : 2961
+# BELS                             : 3088
 #      GND                         : 2
 #      INV                         : 36
 #      LUT1                        : 144
 #      LUT2                        : 148
 #      LUT2_D                      : 2
 #      LUT2_L                      : 9
-#      LUT3                        : 741
+#      LUT3                        : 811
 #      LUT3_D                      : 44
-#      LUT3_L                      : 11
+#      LUT3_L                      : 10
 #      LUT4                        : 755
-#      LUT4_D                      : 25
-#      LUT4_L                      : 114
+#      LUT4_D                      : 18
+#      LUT4_L                      : 115
 #      MUXCY                       : 348
-#      MUXF5                       : 217
+#      MUXF5                       : 281
 #      MUXF6                       : 72
 #      MUXF7                       : 32
 #      VCC                         : 2
@@ -458,10 +454,10 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-5 
 
- Number of Slices:                     1239  out of   4656    26%  
+ Number of Slices:                     1289  out of   4656    27%  
  Number of Slice Flip Flops:            909  out of   9312     9%  
- Number of 4 input LUTs:               2288  out of   9312    24%  
-    Number used as logic:              2029
+ Number of 4 input LUTs:               2351  out of   9312    25%  
+    Number used as logic:              2092
     Number used as Shift registers:       3
     Number used as RAMs:                256
  Number of IOs:                          91
@@ -508,8 +504,8 @@ Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: 13.941ns (Maximum Frequency: 71.731MHz)
-   Minimum input arrival time before clock: 7.735ns
+   Minimum period: 15.524ns (Maximum Frequency: 64.416MHz)
+   Minimum input arrival time before clock: 15.040ns
    Maximum output required time after clock: 10.682ns
    Maximum combinational path delay: 6.206ns
 
@@ -519,10 +515,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock_divider/half_ck_signal'
-  Clock period: 13.941ns (frequency: 71.731MHz)
-  Total number of paths / destination ports: 293420 / 3175
+  Clock period: 15.524ns (frequency: 64.416MHz)
+  Total number of paths / destination ports: 302061 / 3175
 -------------------------------------------------------------------------
-Delay:               13.941ns (Levels of Logic = 26)
+Delay:               15.524ns (Levels of Logic = 29)
   Source:            hostintf/IMem_in_host_intf/Regular_IMem/Mram_Memory_array2 (RAM)
   Destination:       hostintf/Tx_data_reg_0 (FF)
   Source Clock:      clock_divider/half_ck_signal rising
@@ -532,13 +528,15 @@ Delay:               13.941ns (Levels of Logic = 26)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16_S18_S18:CLKA->DOA6    1   2.436   0.509  IMem_in_host_intf/Regular_IMem/Mram_Memory_array2 (IMem_in_host_intf/MIPS_IMem_rd_data_regular<24>)
-     LUT4:I0->O           71   0.612   1.235  IMem_in_host_intf/Mmux_MIPS_IMem_rd_data171 (MIPS_IMem_rd_data<24>)
+     RAMB16_S18_S18:CLKA->DOA5    1   2.436   0.509  IMem_in_host_intf/Regular_IMem/Mram_Memory_array2 (IMem_in_host_intf/MIPS_IMem_rd_data_regular<23>)
+     LUT4:I0->O           70   0.612   1.235  IMem_in_host_intf/Mmux_MIPS_IMem_rd_data161 (MIPS_IMem_rd_data<23>)
      end scope: 'hostintf'
-     LUT4_D:I0->O         12   0.612   0.820  GPR_file/GPR_data_out1<1>1_SW0_1 (GPR_file/GPR_data_out1<1>1_SW0)
-     LUT4:I3->O            3   0.612   0.603  GPR_file/GPR_data_out1<2>1 (GPR_rd_data1<2>)
-     LUT4:I0->O            1   0.612   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_lut<1> (Mcompar_Rs_equals_Rt_cmp_eq0000_lut<1>)
-     MUXCY:S->O            1   0.404   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<1> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<1>)
+     LUT3:I0->O           28   0.612   1.075  GPR_file/GPR_data_out1<0>2_SW0_1 (GPR_file/GPR_data_out1<0>2_SW0)
+     LUT4:I3->O            1   0.612   0.000  GPR_file/GPR_data_out1<0>1_F (N235)
+     MUXF5:I0->O           3   0.278   0.603  GPR_file/GPR_data_out1<0>1 (GPR_rd_data1<0>)
+     LUT4:I0->O            1   0.612   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_lut<0> (Mcompar_Rs_equals_Rt_cmp_eq0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<0> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<1> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<1>)
      MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<2> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<2>)
      MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<3> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<3>)
      MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<4> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<4>)
@@ -552,7 +550,8 @@ Delay:               13.941ns (Levels of Logic = 26)
      MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<12> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<12>)
      MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<13> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<13>)
      MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<14> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<14>)
-     MUXCY:CI->O           3   0.399   0.520  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<15> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<15>)
+     MUXCY:CI->O           1   0.399   0.387  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<15> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<15>)
+     LUT3:I2->O            3   0.612   0.520  Rs_equals_Rt_or00001 (Rs_equals_Rt)
      begin scope: 'hostintf'
      LUT3:I1->O            1   0.612   0.000  Mmux_Host_RDBK_data_71 (Mmux_Host_RDBK_data_71)
      MUXF5:I0->O           1   0.278   0.000  Mmux_Host_RDBK_data_5_f5_0 (Mmux_Host_RDBK_data_5_f51)
@@ -562,8 +561,8 @@ Delay:               13.941ns (Levels of Logic = 26)
      LUT4:I0->O            1   0.612   0.000  Host_MIPS_rd_data<0> (Host_MIPS_rd_data<0>)
      FDE:D                     0.268          Tx_data_reg_0
     ----------------------------------------
-    Total                     13.941ns (9.641ns logic, 4.300ns route)
-                                       (69.2% logic, 30.8% route)
+    Total                     15.524ns (10.583ns logic, 4.942ns route)
+                                       (68.2% logic, 31.8% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'CK_50MHz'
@@ -588,30 +587,53 @@ Delay:               1.689ns (Levels of Logic = 0)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clock_divider/half_ck_signal'
-  Total number of paths / destination ports: 2213 / 422
+  Total number of paths / destination ports: 19495 / 550
 -------------------------------------------------------------------------
-Offset:              7.735ns (Levels of Logic = 9)
-  Source:            switches_in<0> (PAD)
-  Destination:       hostintf/sevenseg_out_CKed_0 (FF)
+Offset:              15.040ns (Levels of Logic = 31)
+  Source:            buttons_in<3> (PAD)
+  Destination:       hostintf/Tx_data_reg_0 (FF)
   Destination Clock: clock_divider/half_ck_signal rising
 
-  Data Path: switches_in<0> to hostintf/sevenseg_out_CKed_0
+  Data Path: buttons_in<3> to hostintf/Tx_data_reg_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            64   1.106   1.233  switches_in_0_IBUF (switches_in_0_IBUF)
+     IBUF:I->O            51   1.106   1.230  buttons_in_3_IBUF (buttons_in_3_IBUF)
      begin scope: 'hostintf'
-     LUT3:I0->O            1   0.612   0.000  switches_in<1>_2_f5_31 (switches_in<1>_2_f5_31)
-     MUXF5:I1->O           2   0.278   0.532  switches_in<1>_2_f5_2_f5_0 (switches_in<1>_mmx_out10)
-     LUT2:I0->O            1   0.612   0.387  using_LED_monitor/digit_mux/Mmux_out_y_9 (using_LED_monitor/digit_mux/Mmux_out_y_9)
-     LUT4:I2->O            1   0.612   0.000  using_LED_monitor/digit_mux/Mmux_out_y_4 (using_LED_monitor/digit_mux/Mmux_out_y_4)
-     MUXF5:I1->O           1   0.278   0.000  using_LED_monitor/digit_mux/Mmux_out_y_3_f5 (using_LED_monitor/digit_mux/Mmux_out_y_3_f5)
-     MUXF6:I1->O           7   0.451   0.754  using_LED_monitor/digit_mux/Mmux_out_y_2_f6 (using_LED_monitor/digit_value<0>1)
-     LUT4:I0->O            1   0.612   0.000  using_LED_monitor/disply_7seg_decoder/Mrom_sevenseg21 (sevenseg_out_signal<2>)
-     FD:D                      0.268          sevenseg_out_CKed_2
+     LUT2:I0->O          370   0.612   1.233  RESET1 (MIPS_reset)
+     end scope: 'hostintf'
+     LUT2:I1->O          255   0.612   1.202  RESET1 (RESET)
+     LUT4:I1->O            1   0.612   0.000  GPR_file/GPR_data_out1<0>1_F (N235)
+     MUXF5:I0->O           3   0.278   0.603  GPR_file/GPR_data_out1<0>1 (GPR_rd_data1<0>)
+     LUT4:I0->O            1   0.612   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_lut<0> (Mcompar_Rs_equals_Rt_cmp_eq0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<0> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<1> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<2> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<3> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<4> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<5> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<6> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<7> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<8> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<9> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<10> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<11> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<12> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<13> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<14> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<14>)
+     MUXCY:CI->O           1   0.399   0.387  Mcompar_Rs_equals_Rt_cmp_eq0000_cy<15> (Mcompar_Rs_equals_Rt_cmp_eq0000_cy<15>)
+     LUT3:I2->O            3   0.612   0.520  Rs_equals_Rt_or00001 (Rs_equals_Rt)
+     begin scope: 'hostintf'
+     LUT3:I1->O            1   0.612   0.000  Mmux_Host_RDBK_data_71 (Mmux_Host_RDBK_data_71)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_Host_RDBK_data_5_f5_0 (Mmux_Host_RDBK_data_5_f51)
+     MUXF6:I1->O           1   0.451   0.000  Mmux_Host_RDBK_data_4_f6 (Mmux_Host_RDBK_data_4_f6)
+     MUXF7:I0->O           1   0.451   0.360  Mmux_Host_RDBK_data_2_f7 (Host_RDBK_data<0>)
+     LUT4_L:I3->LO         1   0.612   0.252  Host_MIPS_rd_data<0>_SW0_SW0 (N305)
+     LUT4:I0->O            1   0.612   0.000  Host_MIPS_rd_data<0> (Host_MIPS_rd_data<0>)
+     FDE:D                     0.268          Tx_data_reg_0
     ----------------------------------------
-    Total                      7.735ns (4.829ns logic, 2.906ns route)
-                                       (62.4% logic, 37.6% route)
+    Total                     15.040ns (9.253ns logic, 5.787ns route)
+                                       (61.5% logic, 38.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_divider/half_ck_signal'
@@ -662,11 +684,11 @@ Delay:               6.206ns (Levels of Logic = 3)
 
 
 Total REAL time to Xst completion: 16.00 secs
-Total CPU time to Xst completion: 16.95 secs
+Total CPU time to Xst completion: 15.97 secs
  
 --> 
 
-Total memory usage is 4617400 kilobytes
+Total memory usage is 4617484 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    9 (   0 filtered)

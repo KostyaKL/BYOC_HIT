@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/User/Documents/BYOC_HIT/Hagahsa/HW5/Simulation/Sim/BYOC_TB_for_students.xst" -ofn "C:/Users/User/Documents/BYOC_HIT/Hagahsa/HW5/Simulation/Sim/BYOC_TB_for_students.syr" 
