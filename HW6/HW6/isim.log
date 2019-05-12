@@ -487,3 +487,80 @@ at 3480 ns(6): Error: Error in value10 in CK cycle 71!!!  was 00000013 instead o
 at 3480 ns(6): Error: Error in value11 in CK cycle 71!!!  was 00000002 instead of 00000022
 at 3520 ns(6): Error: Error in value14 in CK cycle 72!!!  was 00000013 instead of 00000033
 at 3520 ns(6): Error: Error in value15 in CK cycle 72!!!  was 00000013 instead of 00000033
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps: Note: ================= Start filling IMem from file ==================================== (/byoc_tb_for_students/Testing_BYOC_top/hostintf/).
+at 0 ps: Note: ================= Filling IMem from file done! ==================================== (/byoc_tb_for_students/Testing_BYOC_top/hostintf/).
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/hostintf/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/hostintf/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/hostintf/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/GPR_file/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/GPR_file/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/GPR_file/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 1 ns: Note: ================= Start checking signals ======================== (/byoc_tb_for_students/).
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 3280 ns(6): Error: Error in value9 in CK cycle 66!!!  was 00007FFE instead of 00000003
+at 3320 ns(6): Error: Error in value10 in CK cycle 67!!!  was 00007FFE instead of 00000003
+at 3320 ns(6): Error: Error in value11 in CK cycle 67!!!  was FFFFFFFF instead of 00000002
+at 3360 ns(6): Error: Error in value14 in CK cycle 68!!!  was 00007FFE instead of 00000003
+at 3360 ns(6): Error: Error in value15 in CK cycle 68!!!  was 00007FFE instead of 00000003
+at 3440 ns(6): Error: Error in value9 in CK cycle 70!!!  was 00000013 instead of 00000033
+at 3480 ns(6): Error: Error in value10 in CK cycle 71!!!  was 00000013 instead of 00000033
+at 3480 ns(6): Error: Error in value11 in CK cycle 71!!!  was 00000002 instead of 00000022
+at 3520 ns(6): Error: Error in value14 in CK cycle 72!!!  was 00000013 instead of 00000033
+at 3520 ns(6): Error: Error in value15 in CK cycle 72!!!  was 00000013 instead of 00000033
+# run 1.00us
+at 4640 ns(6): Error: Error in value9 in CK cycle 100!!!  was FFFFFAAB instead of 00000000
+at 4680 ns(6): Error: Error in value10 in CK cycle 101!!!  was FFFFFAAB instead of 00000000
+at 4680 ns(6): Error: Error in value11 in CK cycle 101!!!  was 00000AAA instead of 00000555
+at 4720 ns(6): Error: Error in value14 in CK cycle 102!!!  was FFFFFAAB instead of 00000000
+at 4720 ns(6): Error: Error in value15 in CK cycle 102!!!  was FFFFFAAB instead of 00000000
+# run 1.00us
+# run 1.00us
+at 6480 ns(6): Error: Error in value9 in CK cycle 146!!!  was 00000003 instead of 00000004
+at 6520 ns(6): Error: Error in value10 in CK cycle 147!!!  was 00000003 instead of 00000004
+at 6520 ns(6): Error: Error in value11 in CK cycle 147!!!  was 00000002 instead of 00000003
+at 6560 ns(6): Error: Error in value14 in CK cycle 148!!!  was 00000003 instead of 00000004
+at 6560 ns(6): Error: Error in value15 in CK cycle 148!!!  was 00000003 instead of 00000004
+# run 1.00us
+at 7080 ns(6): Error:  ========== no of errors is: 12, ========= test FAILED!! ===========
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps: Note: ================= Start filling IMem from file ==================================== (/byoc_tb_for_students/Testing_BYOC_top/hostintf/).
+at 0 ps: Note: ================= Filling IMem from file done! ==================================== (/byoc_tb_for_students/Testing_BYOC_top/hostintf/).
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/hostintf/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/hostintf/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/hostintf/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/GPR_file/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/GPR_file/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /byoc_tb_for_students/Testing_BYOC_top/GPR_file/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 1 ns: Note: ================= Start checking signals ======================== (/byoc_tb_for_students/).
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 3280 ns(6): Error: Error in value9 in CK cycle 66!!!  was 00007FFE instead of 00000003
+at 3320 ns(6): Error: Error in value10 in CK cycle 67!!!  was 00007FFE instead of 00000003
+at 3320 ns(6): Error: Error in value11 in CK cycle 67!!!  was FFFFFFFF instead of 00000002
+at 3360 ns(6): Error: Error in value14 in CK cycle 68!!!  was 00007FFE instead of 00000003
+at 3360 ns(6): Error: Error in value15 in CK cycle 68!!!  was 00007FFE instead of 00000003
+at 3440 ns(6): Error: Error in value9 in CK cycle 70!!!  was 00000013 instead of 00000033
+at 3480 ns(6): Error: Error in value10 in CK cycle 71!!!  was 00000013 instead of 00000033
+at 3480 ns(6): Error: Error in value11 in CK cycle 71!!!  was 00000002 instead of 00000022
+at 3520 ns(6): Error: Error in value14 in CK cycle 72!!!  was 00000013 instead of 00000033
+at 3520 ns(6): Error: Error in value15 in CK cycle 72!!!  was 00000013 instead of 00000033
