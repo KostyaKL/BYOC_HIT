@@ -635,9 +635,9 @@ Funct  <= IR_reg(5 downto 0);
 	
 --beq & bne & jr forwarding  			  --@@@HW6 adding branch & JR forwarding
 --A mux of the Rs_equal_Rt comparator (beq/bne forwarding)
-process (RegWrite_pMEM, Rd_pMEM, Rs_pEX, JAL_pMEM, GPR_rd_data1)
+process (RegWrite_pMEM, Rd_pMEM, Rs, GPR_rd_data1, ALUout_reg)
 begin
-	if RegWrite_pMEM = '1' and Rd_pMEM = Rs_pEX and Rs_pEX /= b"00000" and JAL_pMEM = '0' then
+	if RegWrite_pMEM = '1' and Rd_pMEM = Rs and Rs /= b"00000" then
 		GPR_rd_data1_wt_fwd <= ALUout_reg;
 	else
 		GPR_rd_data1_wt_fwd <= GPR_rd_data1;
@@ -645,9 +645,9 @@ begin
 end process;
 
 --B mux of the Rs_equal_Rt comparator (beq/bne forwarding)				--@@@HW6 adding branch & JR forwarding
-process (RegWrite_pMEM, Rd_pMEM, Rt_pEX, JAL_pMEM, GPR_rd_data1)
+process (RegWrite_pMEM, Rd_pMEM, Rt, GPR_rd_data2, ALUout_reg)
 begin
-	if RegWrite_pMEM = '1' and Rd_pMEM = Rt_pEX and Rt_pEX /= b"00000" and JAL_pMEM = '0' then
+	if RegWrite_pMEM = '1' and Rd_pMEM = Rt and Rt /= b"00000" then
 		GPR_rd_data2_wt_fwd <= ALUout_reg;
 	else
 		GPR_rd_data2_wt_fwd <= GPR_rd_data2;
