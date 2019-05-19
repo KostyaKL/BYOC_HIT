@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/User/Documents/VHDL/HW4/Src_4Sim/dual_port_memory_HIT.vhd";
+static const char *ng0 = "C:/Users/User/Documents/BYOC_HIT/Hagahsa/HW4/Simulation/Src_4Sim/dual_port_memory_HIT.vhd";
 
 
 

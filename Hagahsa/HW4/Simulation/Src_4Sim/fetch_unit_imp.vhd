@@ -185,7 +185,7 @@ funct  <=  IR_reg (5 downto 0);
 -- PC_source decoder  (create the PC_source signal)
 process (opcode, funct, Rs_equals_Rt_pID)
 begin
-	if opcode = b"000010"  or opcode = b"000011" then --j or jal
+	if opcode = b"000010"  or opcode = b"000011" then --jump or jal
 		PC_source <= b"11"; --jump_adrs
 	elsif	opcode = b"000100" and Rs_equals_Rt_pID = '1' then -- beq
 		PC_source <= b"01"; --branch_adrs
