@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Sun May 19 10:35:34 2019">
+<application name="pn" timeStamp="Sun May 19 11:48:10 2019">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="F5FFA248571E4E9D98CD60AD5CC01840" type="project"/>
-<property name="ProjectIteration" value="1" type="project"/>
+<property name="ProjectIteration" value="4" type="project"/>
 <property name="ProjectFile" value="C:/Users/User/Documents/BYOC_HIT/HW6/HW6/HW6.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2019-05-06T20:47:19" type="project"/>
 </section>
@@ -26,7 +26,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2019-05-06T20:47:19" type="design"/>
 <property name="PROP_intWbtProjectID" value="F5FFA248571E4E9D98CD60AD5CC01840" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="1" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="4" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_selectedSimRootSourceNode_behav" value="work.BYOC_TB_for_students" type="process"/>

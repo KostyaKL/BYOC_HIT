@@ -698,7 +698,7 @@ begin
 		MemToReg <= '0';
 	end if;
 	
-	if Opcode = 0 or Opcode = 8 or Opcode = 13 or Opcode = 15 then --rtype or addi or ori or lui
+	if Opcode = 0 or Opcode = 8 or Opcode = 13 or Opcode = 15 or Opcode = 3 then --rtype or addi or ori or lui or jal
 		RegWrite <= '1';
 	else
 		RegWrite <= '0';
@@ -706,12 +706,9 @@ begin
 
 	if Opcode = 3 then --jal
 		JAL <= '1';
-		RegWrite <= '1';
-		--Rd <= b"11111";
 		Rt <= b"11111";
 	else
 		JAL <= '0';
-		--Rd <= IR_reg(15 downto 11); 
 		Rt <= IR_reg(20 downto 16); 
 	end if;
 
@@ -747,7 +744,7 @@ end process;
 
 -- with forwarding													-- @@@HW6 adding data forwarding
 -- src_A mux (forwarding)											-- @@@HW6 adding data forwarding in EX phase			
-process (RegWrite_pMEM, Rd_pMEM, Rs_pEX, RegWrite_pWB, Rd_pWB, JAL_pMEM, GPR_wr_data)
+process (RegWrite_pMEM, Rd_pMEM, Rs_pEX, RegWrite_pWB, Rd_pWB, JAL_pMEM, GPR_wr_data, ALUout_reg, A_reg)
 begin
 	if RegWrite_pMEM = '1' and Rd_pMEM = Rs_pEX and Rs_pEX /= b"00000" and JAL_pMEM = '0' then
 		A_reg_wt_fwd <= ALUout_reg;
@@ -759,7 +756,7 @@ begin
 end process;
 
 -- src B mux (forwarding part) 										-- @@@HW6 adding data forwarding in EX phase
-process (RegWrite_pMEM, Rd_pMEM, Rt_pEX, RegWrite_pWB, Rd_pWB, JAL_pMEM, GPR_wr_data)
+process (RegWrite_pMEM, Rd_pMEM, Rt_pEX, RegWrite_pWB, Rd_pWB, JAL_pMEM, GPR_wr_data, ALUout_reg, B_reg)
 begin
 	if RegWrite_pMEM = '1' and Rd_pMEM = Rt_pEX  and Rt_pEX /= b"00000" and JAL_pMEM = '0' then
 		B_reg_wt_fwd <= ALUout_reg;

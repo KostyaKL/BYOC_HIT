@@ -10,7 +10,7 @@ Total CPU time to Xst completion: 0.14 secs
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Reading design: HW6_top.prj
 
@@ -112,14 +112,14 @@ Architecture dual_port_memory of Entity dual_port_memory_no_ck_read is up to dat
 Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW6/Src_4ISE/BYOC_Clock_driver.vhd" in Library work.
 Architecture clock_divider of Entity clock_driver is up to date.
 Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW6/Src_4ISE/fetch_unit_imp.vhd" in Library work.
-Architecture behavioral of Entity fetch_unit is up to date.
+Entity <fetch_unit> compiled.
+Entity <fetch_unit> (Architecture <behavioral>) compiled.
 Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW6/Src_4ISE/GPR_HIT.vhd" in Library work.
 Architecture behavioral of Entity gpr is up to date.
 Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW6/Src_4ISE/MIPS_ALU_HIT.vhd" in Library work.
 Architecture behavioral of Entity mips_alu is up to date.
 Compiling vhdl file "C:/Users/User/Documents/BYOC_HIT/HW6/Src_4ISE/HW6_top.vhd" in Library work.
-Entity <hw6_top> compiled.
-Entity <hw6_top> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity hw6_top is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -144,10 +144,6 @@ Analyzing hierarchy for entity <dual_port_memory_no_CK_read> in library <work> (
 =========================================================================
 Analyzing Entity <HW6_top> in library <work> (Architecture <behavioral>).
 WARNING:Xst:2211 - "C:/Users/User/Documents/BYOC_HIT/HW6/Src_4ISE/HW6_top.vhd" line 439: Instantiating black box module <BYOC_Host_intf>.
-WARNING:Xst:819 - "C:/Users/User/Documents/BYOC_HIT/HW6/Src_4ISE/HW6_top.vhd" line 750: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
-   <ALUout_reg>, <A_reg>
-WARNING:Xst:819 - "C:/Users/User/Documents/BYOC_HIT/HW6/Src_4ISE/HW6_top.vhd" line 762: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
-   <ALUout_reg>, <B_reg>
 Entity <HW6_top> analyzed. Unit <HW6_top> generated.
 
 Analyzing Entity <Clock_Driver> in library <work> (Architecture <clock_divider>).
@@ -242,8 +238,8 @@ WARNING:Xst:646 - Signal <leds_out_from_host_intf<7>> is assigned but never used
     Found 16-bit tristate buffer for signal <Flash_data>.
     Found 32-bit register for signal <A_reg>.
     Found 32-bit 4-to-1 multiplexer for signal <A_reg_wt_fwd>.
-    Found 5-bit comparator equal for signal <A_reg_wt_fwd$cmp_eq0000> created at line 752.
-    Found 5-bit comparator equal for signal <A_reg_wt_fwd$cmp_eq0001> created at line 753.
+    Found 5-bit comparator equal for signal <A_reg_wt_fwd$cmp_eq0000> created at line 749.
+    Found 5-bit comparator equal for signal <A_reg_wt_fwd$cmp_eq0001> created at line 750.
     Found 2-bit register for signal <ALUOP_pEX>.
     Found 32-bit register for signal <ALUout_reg>.
     Found 32-bit register for signal <ALUout_reg_pWB>.
@@ -252,8 +248,8 @@ WARNING:Xst:646 - Signal <leds_out_from_host_intf<7>> is assigned but never used
     Found 32-bit register for signal <B_reg_pMEM>.
     Found 32-bit 4-to-1 multiplexer for signal <B_reg_pMEM$mux0002>.
     Found 32-bit 4-to-1 multiplexer for signal <B_reg_wt_fwd>.
-    Found 5-bit comparator equal for signal <B_reg_wt_fwd$cmp_eq0000> created at line 764.
-    Found 5-bit comparator equal for signal <B_reg_wt_fwd$cmp_eq0001> created at line 765.
+    Found 5-bit comparator equal for signal <B_reg_wt_fwd$cmp_eq0000> created at line 761.
+    Found 5-bit comparator equal for signal <B_reg_wt_fwd$cmp_eq0001> created at line 762.
     Found 6-bit register for signal <Funct_pEX>.
     Found 5-bit comparator equal for signal <GPR_rd_data1_wt_fwd$cmp_eq0000> created at line 621.
     Found 5-bit comparator equal for signal <GPR_rd_data2_wt_fwd$cmp_eq0000> created at line 631.
@@ -438,21 +434,21 @@ Design Statistics
 # IOs                              : 91
 
 Cell Usage :
-# BELS                             : 3722
+# BELS                             : 3769
 #      GND                         : 2
 #      INV                         : 36
 #      LUT1                        : 144
-#      LUT2                        : 141
-#      LUT2_D                      : 4
-#      LUT2_L                      : 11
-#      LUT3                        : 932
+#      LUT2                        : 136
+#      LUT2_D                      : 3
+#      LUT2_L                      : 13
+#      LUT3                        : 883
 #      LUT3_D                      : 16
-#      LUT3_L                      : 33
-#      LUT4                        : 1175
-#      LUT4_D                      : 109
-#      LUT4_L                      : 161
+#      LUT3_L                      : 34
+#      LUT4                        : 1227
+#      LUT4_D                      : 112
+#      LUT4_L                      : 158
 #      MUXCY                       : 348
-#      MUXF5                       : 245
+#      MUXF5                       : 292
 #      MUXF6                       : 72
 #      MUXF7                       : 32
 #      VCC                         : 2
@@ -539,7 +535,7 @@ Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: 18.940ns (Maximum Frequency: 52.797MHz)
+   Minimum period: 18.931ns (Maximum Frequency: 52.823MHz)
    Minimum input arrival time before clock: 7.735ns
    Maximum output required time after clock: 10.682ns
    Maximum combinational path delay: 6.206ns
@@ -550,10 +546,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clock_divider/half_ck_signal'
-  Clock period: 18.940ns (frequency: 52.797MHz)
-  Total number of paths / destination ports: 3993975 / 3815
+  Clock period: 18.931ns (frequency: 52.823MHz)
+  Total number of paths / destination ports: 4200091 / 3815
 -------------------------------------------------------------------------
-Delay:               18.940ns (Levels of Logic = 31)
+Delay:               18.931ns (Levels of Logic = 31)
   Source:            hostintf/IMem_in_host_intf/Regular_IMem/Mram_Memory_array2 (RAM)
   Destination:       hostintf/Tx_data_reg_0 (FF)
   Source Clock:      clock_divider/half_ck_signal rising
@@ -564,10 +560,10 @@ Delay:               18.940ns (Levels of Logic = 31)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      RAMB16_S18_S18:CLKA->DOA10    1   2.436   0.509  IMem_in_host_intf/Regular_IMem/Mram_Memory_array2 (IMem_in_host_intf/MIPS_IMem_rd_data_regular<28>)
-     LUT4:I0->O           46   0.612   1.107  IMem_in_host_intf/Mmux_MIPS_IMem_rd_data211 (MIPS_IMem_rd_data<28>)
+     LUT4:I0->O           48   0.612   1.107  IMem_in_host_intf/Mmux_MIPS_IMem_rd_data211 (MIPS_IMem_rd_data<28>)
      end scope: 'hostintf'
-     LUT4_D:I2->O         13   0.612   0.839  RegWrite11 (N2)
-     LUT4:I3->O           36   0.612   1.104  Rt<3>1_1 (Rt<3>1)
+     LUT4_D:I2->O         13   0.612   0.839  MemToReg_cmp_eq000011 (N2)
+     LUT4:I3->O           24   0.612   1.094  Rt<3>1_1 (Rt<3>1)
      LUT4:I2->O            2   0.612   0.383  GPR_file/GPR_data_out2_and000067 (GPR_file/GPR_data_out2_and000067)
      LUT4:I3->O           16   0.612   0.882  GPR_file/GPR_data_out2_and000082 (GPR_file/GPR_data_out2_and0000)
      LUT4:I3->O            2   0.612   0.410  GPR_file/Mmux_GPR_data_out236 (GPR_rd_data2<1>)
@@ -598,7 +594,7 @@ Delay:               18.940ns (Levels of Logic = 31)
      LUT4:I0->O            1   0.612   0.000  Host_MIPS_rd_data<0> (Host_MIPS_rd_data<0>)
      FDE:D                     0.268          Tx_data_reg_0
     ----------------------------------------
-    Total                     18.940ns (12.141ns logic, 6.800ns route)
+    Total                     18.931ns (12.141ns logic, 6.791ns route)
                                        (64.1% logic, 35.9% route)
 
 =========================================================================
@@ -697,14 +693,14 @@ Delay:               6.206ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 20.00 secs
-Total CPU time to Xst completion: 19.56 secs
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 18.76 secs
  
 --> 
 
-Total memory usage is 4617436 kilobytes
+Total memory usage is 4617344 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   11 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
 Number of infos    :    5 (   0 filtered)
 
