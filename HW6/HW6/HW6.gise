@@ -44,15 +44,13 @@
     <transform xil_pn:end_ts="1558246766" xil_pn:in_ck="-6204369126594520391" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1558246766">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../Src_4Sim_3/BYOC_Clock_driver_4sim.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/BYOC_Host_Intf_4sim.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/GPR_HIT.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/HW6_top_4sim.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/MIPS_ALU_HIT.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/SIM_HW6_TB.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/SIM_HW6_filenames.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/dual_port_memory_HIT.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/fetch_unit_imp.vhd"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1558246766" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6648347747627761137" xil_pn:start_ts="1558246766">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -65,36 +63,39 @@
     <transform xil_pn:end_ts="1558246766" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6847534622706527832" xil_pn:start_ts="1558246766">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1558246766" xil_pn:in_ck="-6204369126594520391" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1558246766">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../Src_4Sim_3/BYOC_Clock_driver_4sim.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/BYOC_Host_Intf_4sim.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/GPR_HIT.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/HW6_top_4sim.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/MIPS_ALU_HIT.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/SIM_HW6_TB.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/SIM_HW6_filenames.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/dual_port_memory_HIT.vhd"/>
-      <outfile xil_pn:name="../Src_4Sim_3/fetch_unit_imp.vhd"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1558246771" xil_pn:in_ck="-6204369126594520391" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2058405797319777976" xil_pn:start_ts="1558246766">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="BYOC_TB_for_students_beh.prj"/>
-      <outfile xil_pn:name="BYOC_TB_for_students_isim_beh.exe"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1558246771" xil_pn:in_ck="-7742223641631993914" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1070957045861215851" xil_pn:start_ts="1558246771">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="BYOC_TB_for_students_isim_beh.wdb"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 
