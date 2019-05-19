@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\User\Documents\BYOC_HIT\HW6\HW6\HW6_top.ncd
+OUTFILE=C:\Users\User\Documents\BYOC_HIT\HW6\HW6\HW6_top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\User\Documents\BYOC_HIT\HW6\HW6
+LICENSE=WebPack
+USER_INFO=211711446_0_0_237

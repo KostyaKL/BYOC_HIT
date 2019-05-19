@@ -1,0 +1,6 @@
+vhdl work "C:\Users\User\Documents\BYOC_HIT\HW6\Src_4ISE\dual_port_memory_HIT.vhd"
+vhdl work "C:\Users\User\Documents\BYOC_HIT\HW6\Src_4ISE\MIPS_ALU_HIT.vhd"
+vhdl work "C:\Users\User\Documents\BYOC_HIT\HW6\Src_4ISE\GPR_HIT.vhd"
+vhdl work "C:\Users\User\Documents\BYOC_HIT\HW6\Src_4ISE\fetch_unit_imp.vhd"
+vhdl work "C:\Users\User\Documents\BYOC_HIT\HW6\Src_4ISE\BYOC_Clock_driver.vhd"
+vhdl work "C:\Users\User\Documents\BYOC_HIT\HW6\Src_4ISE\HW6_top.vhd"
