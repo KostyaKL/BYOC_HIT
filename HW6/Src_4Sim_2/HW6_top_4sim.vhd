@@ -771,11 +771,9 @@ end process;
 -- src_A mux (forwarding)											-- @@@HW6 adding data forwarding in EX phase			
 process (RegWrite_pMEM, Rd_pMEM, Rs_pEX, RegWrite_pWB, Rd_pWB, JAL_pMEM, GPR_wr_data)
 begin
-	if RegWrite_pMEM = '1' and RegWrite_pWB = '1' then
-		A_reg_wt_fwd <= A_reg;
-	elsif RegWrite_pMEM = '1' and Rd_pMEM = Rs_pEX and JAL_pMEM = '0' then
+	if RegWrite_pMEM = '1' and Rd_pMEM = Rs_pEX and Rs_pEX /= b"00000" and JAL_pMEM = '0' then
 		A_reg_wt_fwd <= ALUout_reg;
-	elsif RegWrite_pWB = '1' and Rd_pWB = Rs_pEX then
+	elsif RegWrite_pWB = '1' and Rd_pWB = Rs_pEX and Rs_pEX /= b"00000" then
 		A_reg_wt_fwd <= GPR_wr_data;
 	else
 		A_reg_wt_fwd <= A_reg;
@@ -785,11 +783,9 @@ end process;
 -- src B mux (forwarding part) 										-- @@@HW6 adding data forwarding in EX phase
 process (RegWrite_pMEM, Rd_pMEM, Rt_pEX, RegWrite_pWB, Rd_pWB, JAL_pMEM, GPR_wr_data)
 begin
-	if RegWrite_pMEM = '1' and RegWrite_pWB = '1' then
-		B_reg_wt_fwd <= B_reg;
-	elsif RegWrite_pMEM = '1' and Rd_pMEM = Rt_pEX  and JAL_pMEM = '0' then
+	if RegWrite_pMEM = '1' and Rd_pMEM = Rt_pEX  and Rt_pEX /= b"00000" and JAL_pMEM = '0' then
 		B_reg_wt_fwd <= ALUout_reg;
-	elsif RegWrite_pWB = '1' and Rd_pWB = Rt_pEX then
+	elsif RegWrite_pWB = '1' and Rd_pWB = Rt_pEX and Rt_pEX /= b"00000" then
 		B_reg_wt_fwd <= GPR_wr_data;
 	else
 		B_reg_wt_fwd <= B_reg;
@@ -893,7 +889,13 @@ begin
 	if RESET='1' then
 		B_reg_pMEM <= x"00000000";
 	elsif CK'event and CK='1' and HOLD ='0' then
-		B_reg_pMEM <= B_reg;
+		if RegWrite_pMEM = '1' and Rd_pMEM = Rt_pEX  and Rt_pEX /= b"00000" and JAL_pMEM = '0' then
+			B_reg_pMEM <= B_reg_wt_fwd;
+		elsif RegWrite_pWB = '1' and Rd_pWB = Rt_pEX and Rt_pEX /= b"00000" then
+			B_reg_pMEM <= B_reg_wt_fwd;
+		else
+			B_reg_pMEM <= B_reg;
+		end if;
 	end if;
 end process;
 
