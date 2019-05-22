@@ -2,9 +2,9 @@ Command line:
    BYOC_TB_for_students_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  61025
+     -socket  64532
 
-Sun May 19 15:07:55 2019
+Wed May 22 11:27:44 2019
 
 
  Elaboration Time: 0.0625 sec

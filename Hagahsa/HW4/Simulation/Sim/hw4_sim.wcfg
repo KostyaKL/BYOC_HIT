@@ -15,7 +15,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="30" />
+   <WVObjectSize size="33" />
    <wvobject fp_name="/byoc_tb_for_students/i" type="other" db_ref_id="1">
       <obj_property name="ElementShortName">i</obj_property>
       <obj_property name="ObjectShortName">i</obj_property>
@@ -154,6 +154,21 @@
    <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/pc_reg" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">pc_reg[31:0]</obj_property>
       <obj_property name="ObjectShortName">pc_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/sext_imm_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sext_imm_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sext_imm_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/sext_imm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sext_imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sext_imm[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/imem_adrs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imem_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imem_adrs[31:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
 </wave_config>
