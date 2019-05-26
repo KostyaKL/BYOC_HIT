@@ -612,7 +612,7 @@ end process;
 --		RegWrite	'1' - write to GPR file (to "Rd")
 process (Opcode)
 begin
-	if Opcode = 8 then --addi
+	if Opcode = 8 or Opcode = 35 or Opcode = 43 then --addi or lw or sw
 		ALUsrcB <= '1';
 	else
 		ALUsrcB <= '0';
@@ -644,7 +644,7 @@ begin
 		MemToReg <= '0';
 	end if;
 	
-	if Opcode = 0 or Opcode = 8 then --rtype or addi
+	if Opcode = 0 or Opcode = 8 or Opcode = 35 then --rtype or addi or lw
 		RegWrite <= '1';
 	else
 		RegWrite <= '0';

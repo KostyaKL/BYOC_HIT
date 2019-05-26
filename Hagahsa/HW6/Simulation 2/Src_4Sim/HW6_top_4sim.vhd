@@ -685,7 +685,7 @@ jr_address  <= GPR_rd_data1;
 --		 JAL	     '1' - wrhen we are in jal instruction --@@@HW6 adding  JAL support 
 process (Opcode, IR_reg) 
 begin
-	if Opcode = 8 or Opcode = 13 or Opcode = 15 then --addi or ori or lui
+	if Opcode = 8 or Opcode = 13 or Opcode = 15  or Opcode = 35 or Opcode = 43 then --addi or ori or lui or lw or sw
 		ALUsrcB <= '1';
 	else
 		ALUsrcB <= '0';
@@ -720,7 +720,7 @@ begin
 		MemToReg <= '0';
 	end if;
 	
-	if Opcode = 0 or Opcode = 8 or Opcode = 13 or Opcode = 15 then --rtype or addi or ori or lui
+	if Opcode = 0 or Opcode = 8 or Opcode = 13 or Opcode = 15 or Opcode = 3 or Opcode = 35 then --rtype or addi or ori or lui or jal or lw
 		RegWrite <= '1';
 	else
 		RegWrite <= '0';
