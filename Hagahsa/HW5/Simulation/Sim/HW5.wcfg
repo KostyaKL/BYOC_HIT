@@ -15,44 +15,81 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="9" />
-   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/rt" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">rt[4:0]</obj_property>
-      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/byoc_tb_for_students/err_cntr" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">err_cntr</obj_property>
+      <obj_property name="ObjectShortName">err_cntr</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/rs" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">rs[4:0]</obj_property>
-      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/ck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
    </wvobject>
-   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/rd" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">rd[4:0]</obj_property>
-      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
    </wvobject>
-   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/opcode" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
-      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hold" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hold</obj_property>
+      <obj_property name="ObjectShortName">hold</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/pc_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/ir_reg" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">ir_reg[31:0]</obj_property>
       <obj_property name="ObjectShortName">ir_reg[31:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/imem_adrs" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">imem_adrs[31:0]</obj_property>
-      <obj_property name="ObjectShortName">imem_adrs[31:0]</obj_property>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hostintf/mips_dmem_adrs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mips_dmem_adrs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mips_dmem_adrs[31:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/funct" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">funct[5:0]</obj_property>
-      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hostintf/mips_dmem_wr_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mips_dmem_wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mips_dmem_wr_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/ck" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">ck</obj_property>
-      <obj_property name="ObjectShortName">ck</obj_property>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hostintf/mips_dmem_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mips_dmem_we</obj_property>
+      <obj_property name="ObjectShortName">mips_dmem_we</obj_property>
    </wvobject>
-   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/pc_reg" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">pc_reg[31:0]</obj_property>
-      <obj_property name="ObjectShortName">pc_reg[31:0]</obj_property>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hostintf/mips_dmem_rd_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mips_dmem_rd_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mips_dmem_rd_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hostintf/dmem_reg0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_reg0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hostintf/dmem_reg1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_reg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_reg1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hostintf/dmem_reg2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_reg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_reg2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hostintf/dmem_reg3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_reg3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_reg3[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/hostintf/dmem_reg4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_reg4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_reg4[31:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
 </wave_config>
