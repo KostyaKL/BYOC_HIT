@@ -15,7 +15,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="16" />
+   <WVObjectSize size="18" />
    <wvobject fp_name="/byoc_tb_for_students/err_cntr" type="other" db_ref_id="1">
       <obj_property name="ElementShortName">err_cntr</obj_property>
       <obj_property name="ObjectShortName">err_cntr</obj_property>
@@ -91,5 +91,13 @@
       <obj_property name="ElementShortName">dmem_reg4[31:0]</obj_property>
       <obj_property name="ObjectShortName">dmem_reg4[31:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/byoc_tb_for_students/Testing_BYOC_top/funct" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
    </wvobject>
 </wave_config>
